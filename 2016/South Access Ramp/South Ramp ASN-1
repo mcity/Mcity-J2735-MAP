@@ -1,0 +1,125 @@
+value MapData ::= {
+  msgIssueRevision 1,
+  layerType intersectionData,
+  layerID 0,
+  intersections {
+    {
+      id {
+        id 2580
+      },
+      revision 1,
+      refPoint {
+        lat 422997504,
+        long -836972627,
+        elevation 2700
+      },
+      laneWidth 366,
+      laneSet {
+        {
+          laneID 2,
+          name "South Access Ramp northbound Ingres" -- truncated --,
+          ingressApproach 2,
+          egressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836972474,
+                lat 422997397
+              },
+              attributes {
+                dWidth 85
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836972179,
+                lat 422995413
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836972394,
+                lat 422994788
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836972796,
+                lat 422993995
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836973842,
+                lat 422992993
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836976766,
+                lat 422992304
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 1,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 1,
+          name "South Access Ramp Southbound Ingres" -- truncated --,
+          ingressApproach 1,
+          egressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836972548,
+                lat 422997858
+              },
+              attributes {
+                dWidth 85
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836972876,
+                lat 423000204
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836973413,
+                lat 423002476
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 2,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

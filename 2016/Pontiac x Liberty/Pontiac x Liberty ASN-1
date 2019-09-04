@@ -1,0 +1,228 @@
+value MapData ::= {
+  msgIssueRevision 1,
+  layerType intersectionData,
+  layerID 0,
+  intersections {
+    {
+      id {
+        id 2577
+      },
+      revision 1,
+      refPoint {
+        lat 423003962,
+        long -836991447,
+        elevation 2700
+      },
+      laneWidth 366,
+      laneSet {
+        {
+          laneID 1,
+          name "Pontiac x Liberty Southbound Ingres" -- truncated --,
+          ingressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836991599,
+                lat 423004708
+              },
+              attributes {
+                dWidth -53
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836991002,
+                lat 423008319
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 5,
+                maneuver {maneuverLeftAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 4,
+          name "Pontiac x Liberty Northbound egress",
+          egressApproach 4,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836991156,
+                lat 423004698
+              },
+              attributes {
+                dWidth -53
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990626,
+                lat 423008269
+              }
+            }
+          }
+        },
+        {
+          laneID 2,
+          name "Pontiac x Liberty Westbound Ingress",
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990713,
+                lat 423004242
+              },
+              attributes {
+                dWidth -17
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987414,
+                lat 423004113
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 4,
+                maneuver {maneuverRightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverLeftAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 5,
+          name "Pontiac x Liberty Eastbound Egress",
+          egressApproach 5,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990700,
+                lat 423003805
+              },
+              attributes {
+                dWidth -4
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987441,
+                lat 423003676
+              }
+            }
+          }
+        },
+        {
+          laneID 3,
+          name "Pontiac x Liberty Northbound Ingres" -- truncated --,
+          ingressApproach 3,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836991438,
+                lat 423003339
+              },
+              attributes {
+                dWidth -40
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836991853,
+                lat 422999580
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 4,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 5,
+                maneuver {maneuverRightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 6,
+          name "Pontiac x Liberty Southbound Egress",
+          egressApproach 6,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836991853,
+                lat 423003339
+              },
+              attributes {
+                dWidth -53
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836992296,
+                lat 422999600
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

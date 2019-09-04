@@ -1,0 +1,549 @@
+value MapData ::= {
+  msgIssueRevision 5,
+  layerType intersectionData,
+  layerID 1,
+  intersections {
+    {
+      id {
+        id 2572
+      },
+      revision 5,
+      refPoint {
+        lat 423009300,
+        long -836979965,
+        elevation 2670
+      },
+      laneWidth 365,
+      speedLimits {
+        {
+          type unknown,
+          speed 0
+        }
+      },
+      laneSet {
+        {
+          laneID 2,
+          name "Main x Wolverine Westbound Ingress",
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836977980,
+                lat 423009955
+              },
+              attributes {
+                dWidth 1,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836975458,
+                lat 423009955
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverRightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 3,
+          name "Main x Wolverine Westbound Ingress ",
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836977983,
+                lat 423009623
+              },
+              attributes {
+                dWidth -4,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836975441,
+                lat 423009628
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 9,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 8,
+                maneuver {maneuverLeftAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 8,
+          name "Main x Wolverine Southbound Egress",
+          egressApproach 7,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836979599,
+                lat 423007681
+              },
+              attributes {
+                dWidth 3,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979562,
+                lat 423002655
+              }
+            }
+          }
+        },
+        {
+          laneID 5,
+          name "Main x Wolverine Eastbound Ingress",
+          ingressApproach 4,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836980987,
+                lat 423009291
+              },
+              attributes {
+                dWidth 1,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985379,
+                lat 423009301
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverLeftAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 7,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 8,
+                maneuver {maneuverRightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 10,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 9,
+          name "Main x Wolverine Westbound Egress",
+          egressApproach 8,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836980993,
+                lat 423009675
+              },
+              attributes {
+                dWidth 132,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985372,
+                lat 423009684
+              }
+            }
+          }
+        },
+        {
+          laneID 6,
+          name "Main x Wolverine Northbound Egress",
+          egressApproach 5,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836978841,
+                lat 423010486
+              },
+              attributes {
+                dWidth -12,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836978861,
+                lat 423016423
+              }
+            }
+          }
+        },
+        {
+          laneID 4,
+          name "Main x Wolverine Northbound Ingress",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836978821,
+                lat 423007684
+              },
+              attributes {
+                dWidth -20,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836978787,
+                lat 423002675
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 7,
+                maneuver {maneuverRightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 9,
+                maneuver {maneuverLeftAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 10,
+                maneuver {maneuverRightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 12,
+          name "Wolverine Northbound ingress left t" -- truncated --,
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836979203,
+                lat 423007679
+              },
+              attributes {
+                dWidth -73,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979190,
+                lat 423005303
+              },
+              attributes {
+                dElevation -340
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 9,
+                maneuver {maneuverLeftAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 7,
+          name "Main x Wolverine Eastbound Egress",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836978060,
+                lat 423008825
+              },
+              attributes {
+                dWidth -2,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836975485,
+                lat 423008825
+              }
+            }
+          }
+        },
+        {
+          laneID 10,
+          name "Main x Wolverine Eastbound Egress",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836978050,
+                lat 423008484
+              },
+              attributes {
+                dWidth -2,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836975488,
+                lat 423008492
+              },
+              attributes {
+                dElevation -340
+              }
+            }
+          }
+        },
+        {
+          laneID 1,
+          name "Main x Wolverine Southbound Ingress",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836979236,
+                lat 423010491
+              },
+              attributes {
+                dWidth -55,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979270,
+                lat 423016428
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 7,
+                maneuver {maneuverLeftAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 10,
+                maneuver {maneuverLeftAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 11,
+          name "Main x Wolverine Southbound Ingress",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836979645,
+                lat 423010491
+              },
+              attributes {
+                dWidth 3,
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979692,
+                lat 423016408
+              }
+            }
+          }
+        },
+        {
+          laneID 13,
+          name "Main x Wolverine West Crosswalk",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType crosswalk : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836980511,
+                lat 423010280
+              },
+              attributes {
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836980634,
+                lat 423009457
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836980536,
+                lat 423008351
+              }
+            }
+          }
+        },
+        {
+          laneID 14,
+          name "Main x Wolverine North crosswalk",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType crosswalk : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836979865,
+                lat 423011842
+              },
+              attributes {
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836978551,
+                lat 423011858
+              }
+            }
+          }
+        },
+        {
+          laneID 15,
+          name "Main x Wolverine South Crosswalk",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType crosswalk : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836980166,
+                lat 423007932
+              },
+              attributes {
+                dElevation 50
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836978449,
+                lat 423007932
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

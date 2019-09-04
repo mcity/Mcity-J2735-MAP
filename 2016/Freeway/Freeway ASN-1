@@ -1,0 +1,417 @@
+value MapData ::= {
+  msgIssueRevision 5,
+  layerType intersectionData,
+  layerID 0,
+  intersections {
+    {
+      id {
+        id 2574
+      },
+      revision 5,
+      refPoint {
+        lat 423006071,
+        long -836974414
+      },
+      laneWidth 366,
+      laneSet {
+        {
+          laneID 10,
+          name "Freeway South 10",
+          ingressApproach 2,
+          egressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836973801,
+                lat 423006055
+              },
+              attributes {
+                dWidth 82
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836973727,
+                lat 423002941
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836972696,
+                lat 422998142
+              },
+              attributes {
+                dWidth 82
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 5,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 9,
+          name "Freeway south 9",
+          ingressApproach 2,
+          egressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836974310,
+                lat 423006050
+              },
+              attributes {
+                dWidth 1
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836974424,
+                lat 422998388
+              },
+              attributes {
+                dWidth 1
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836974431,
+                lat 422998269
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 4,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 8,
+          name "Freeway South 8",
+          ingressApproach 2,
+          egressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836974773,
+                lat 423006040
+              },
+              attributes {
+                dWidth 3
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836974874,
+                lat 422998279
+              },
+              attributes {
+                dWidth 3
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 3,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 7,
+          name "Freeway South 7",
+          ingressApproach 2,
+          egressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836975229,
+                lat 423006035
+              },
+              attributes {
+                dWidth 3
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836975309,
+                lat 422998274
+              },
+              attributes {
+                dWidth 3
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 2,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 6,
+          name "Freeway South ",
+          ingressApproach 2,
+          egressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836975646,
+                lat 423006037
+              },
+              attributes {
+                dWidth -45
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836975705,
+                lat 422998279
+              },
+              attributes {
+                dWidth -44
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 1,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 3,
+          name "Freeway North 3",
+          ingressApproach 1,
+          egressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836974746,
+                lat 423006655
+              },
+              attributes {
+                dWidth 3
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836974746,
+                lat 423017085
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 8,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 4,
+          name "Freeway North 4",
+          ingressApproach 1,
+          egressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836974290,
+                lat 423006655
+              },
+              attributes {
+                dWidth 1
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836974290,
+                lat 423017075
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 9,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 5,
+          name "Freeway ",
+          ingressApproach 1,
+          egressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836973794,
+                lat 423006636
+              },
+              attributes {
+                dWidth 82
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836973807,
+                lat 423017070
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 10,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 2,
+          name "Freeway North 2",
+          ingressApproach 1,
+          egressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836975222,
+                lat 423006640
+              },
+              attributes {
+                dWidth 3
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836975217,
+                lat 423017087
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 7,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 1,
+          name "Freeway North 1",
+          ingressApproach 1,
+          egressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath, egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836975651,
+                lat 423006645
+              },
+              attributes {
+                dWidth -45
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836975646,
+                lat 423017067
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

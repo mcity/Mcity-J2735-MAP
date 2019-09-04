@@ -1,0 +1,501 @@
+value MapData ::= {
+  msgIssueRevision 5,
+  layerType intersectionData,
+  layerID 0,
+  intersections {
+    {
+      id {
+        id 2576
+      },
+      revision 5,
+      refPoint {
+        lat 423008944,
+        long -836990673,
+        elevation 2710
+      },
+      laneWidth 366,
+      laneSet {
+        {
+          laneID 1,
+          name "Pontiac x Main Southbound Ingress",
+          ingressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990963,
+                lat 423010096
+              },
+              attributes {
+                dWidth -35
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990923,
+                lat 423011544
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990870,
+                lat 423012209
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990534,
+                lat 423012635
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990119,
+                lat 423013092
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836989475,
+                lat 423013697
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836988684,
+                lat 423014431
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 7,
+                maneuver {maneuverRightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 8,
+                maneuver {maneuverRightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 9,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 10,
+                maneuver {maneuverLeftAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 6,
+          name "Pontiac x Main Northbound Egress",
+          egressApproach 5,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990561,
+                lat 423010076
+              },
+              attributes {
+                dWidth -35
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990526,
+                lat 423011597
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990521,
+                lat 423012080
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990070,
+                lat 423012628
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836989475,
+                lat 423013191
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836988348,
+                lat 423014272
+              }
+            }
+          }
+        },
+        {
+          laneID 4,
+          name "Pontiac x Main Northbound Ingress",
+          ingressApproach 3,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990552,
+                lat 423008254
+              },
+              attributes {
+                dWidth -31
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836990861,
+                lat 423006419
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836991317,
+                lat 423004445
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 7,
+                maneuver {maneuverRightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 8,
+                maneuver {maneuverRightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 10,
+                maneuver {maneuverLeftAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 9,
+          name "Pontiac x Main Southbound Egress",
+          egressApproach 7,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836991035,
+                lat 423008264
+              },
+              attributes {
+                dWidth -37
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836991357,
+                lat 423006469
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836991853,
+                lat 423004525
+              },
+              attributes {
+                dElevation -350
+              }
+            }
+          }
+        },
+        {
+          laneID 10,
+          name "Pontiac x Main Westbound Egress",
+          egressApproach 8,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836991263,
+                lat 423009415
+              },
+              attributes {
+                dWidth 407
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836991759,
+                lat 423009415
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836992148,
+                lat 423009405
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836992551,
+                lat 423009286
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836992658,
+                lat 423009068
+              }
+            }
+          }
+        },
+        {
+          laneID 5,
+          name "Pontiac x Main Eastbound Ingress",
+          ingressApproach 4,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836991252,
+                lat 423008623
+              },
+              attributes {
+                dWidth 483
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836991934,
+                lat 423008661
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836992511,
+                lat 423008730
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836992712,
+                lat 423008889
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836992658,
+                lat 423009058
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverLeftAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 7,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 8,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 9,
+                maneuver {maneuverRightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 2,
+          name "Pontiac x Main Westbound Ingress",
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990003,
+                lat 423009504
+              },
+              attributes {
+                dWidth -48
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987387,
+                lat 423009494
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverRightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 3,
+          name "Pontiac x Main Westbound Ingress",
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990011,
+                lat 423009218
+              },
+              attributes {
+                dWidth -27
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987403,
+                lat 423009213
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 9,
+                maneuver {maneuverLeftAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 10,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 7,
+          name "Pontiac x Main Eastbound Egress",
+          egressApproach 6,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990058,
+                lat 423008901
+              },
+              attributes {
+                dWidth 1
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987336,
+                lat 423008891
+              }
+            }
+          }
+        },
+        {
+          laneID 8,
+          name "Pontiac x Main Eastbound Egress",
+          egressApproach 6,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836990078,
+                lat 423008554
+              },
+              attributes {
+                dWidth 1
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987374,
+                lat 423008542
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

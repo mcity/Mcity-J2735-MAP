@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<J2735.GID.blob>
+	<Version>2</Version>
+	<Name>Mcity_Liberty_State</Name>
+	<IntersectionID>2570</IntersectionID>
+	<Resolution>decimeter</Resolution>
+	<Geometry>
+		<ReferencePoint>
+			<Latitude>42.300381</Latitude>
+			<Longitude>-83.698646</Longitude>
+			<Elevation>2752</Elevation>
+		</ReferencePoint>
+		<No_Appr>4</No_Appr>
+		<Approach Number="1">
+			<No_Ingress_Lane>1</No_Ingress_Lane>
+			<Lane Number="1">
+				<Type>1</Type>
+				<Attributes>174</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300480</Latitude>
+						<Longitude>-83.698699</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300764</Latitude>
+						<Longitude>-83.698696</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>3</No_Conn_Lane>
+				<Lane_Connections>
+					<Lane_Connection Number="1">
+						<Conn_Lane_ID>7</Conn_Lane_ID>
+						<Maneuver>4</Maneuver>
+					</Lane_Connection>
+					<Lane_Connection Number="2">
+						<Conn_Lane_ID>9</Conn_Lane_ID>
+						<Maneuver>3</Maneuver>
+					</Lane_Connection>
+					<Lane_Connection Number="3">
+						<Conn_Lane_ID>5</Conn_Lane_ID>
+						<Maneuver>2</Maneuver>
+					</Lane_Connection>
+				</Lane_Connections>
+			</Lane>
+			<No_Egress_Lane>2</No_Egress_Lane>
+			<Lane Number="2">
+				<Type>1</Type>
+				<Attributes>1</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300482</Latitude>
+						<Longitude>-83.698654</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300758</Latitude>
+						<Longitude>-83.698646</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>0</No_Conn_Lane>
+			</Lane>
+			<Lane Number="3">
+				<Type>1</Type>
+				<Attributes>1</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300479</Latitude>
+						<Longitude>-83.698601</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300758</Latitude>
+						<Longitude>-83.698596</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>0</No_Conn_Lane>
+			</Lane>
+		</Approach>
+		<Approach Number="2">
+			<No_Ingress_Lane>1</No_Ingress_Lane>
+			<Lane Number="4">
+				<Type>1</Type>
+				<Attributes>174</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300396</Latitude>
+						<Longitude>-83.698485</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300394</Latitude>
+						<Longitude>-83.698064</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>3</No_Conn_Lane>
+				<Lane_Connections>
+					<Lane_Connection Number="1">
+						<Conn_Lane_ID>9</Conn_Lane_ID>
+						<Maneuver>4</Maneuver>
+					</Lane_Connection>
+					<Lane_Connection Number="2">
+						<Conn_Lane_ID>7</Conn_Lane_ID>
+						<Maneuver>2</Maneuver>
+					</Lane_Connection>
+					<Lane_Connection Number="3">
+						<Conn_Lane_ID>3</Conn_Lane_ID>
+						<Maneuver>3</Maneuver>
+					</Lane_Connection>
+				</Lane_Connections>
+			</Lane>
+			<No_Egress_Lane>1</No_Egress_Lane>
+			<Lane Number="5">
+				<Type>1</Type>
+				<Attributes>1</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300357</Latitude>
+						<Longitude>-83.698485</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300354</Latitude>
+						<Longitude>-83.698067</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>0</No_Conn_Lane>
+			</Lane>
+		</Approach>
+		<Approach Number="3">
+		<No_Ingress_Lane>1</No_Ingress_Lane>
+			<Lane Number="6">
+				<Type>1</Type>
+				<Attributes>174</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300285</Latitude>
+						<Longitude>-83.698613</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300110</Latitude>
+						<Longitude>-83.698607</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>3</No_Conn_Lane>
+				<Lane_Connections>
+					<Lane_Connection Number="1">
+						<Conn_Lane_ID>2</Conn_Lane_ID>
+						<Maneuver>4</Maneuver>
+					</Lane_Connection>
+					<Lane_Connection Number="2">
+						<Conn_Lane_ID>9</Conn_Lane_ID>
+						<Maneuver>2</Maneuver>
+					</Lane_Connection>
+					<Lane_Connection Number="3">
+						<Conn_Lane_ID>5</Conn_Lane_ID>
+						<Maneuver>3</Maneuver>
+					</Lane_Connection>
+				</Lane_Connections>
+			</Lane>
+			<No_Egress_Lane>1</No_Egress_Lane>
+			<Lane Number="7">
+				<Type>1</Type>
+				<Attributes>1</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300281</Latitude>
+						<Longitude>-83.698697</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300109</Latitude>
+						<Longitude>-83.698692</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>0</No_Conn_Lane>
+			</Lane>
+		</Approach>
+		<Approach Number="4">
+			<No_Ingress_Lane>1</No_Ingress_Lane>
+			<Lane Number="8">
+				<Type>1</Type>
+				<Attributes>174</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300361</Latitude>
+						<Longitude>-83.698823</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300364</Latitude>
+						<Longitude>-83.699053</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>3</No_Conn_Lane>
+				<Lane_Connections>
+					<Lane_Connection Number="1">
+						<Conn_Lane_ID>5</Conn_Lane_ID>
+						<Maneuver>4</Maneuver>
+					</Lane_Connection>
+					<Lane_Connection Number="2">
+						<Conn_Lane_ID>2</Conn_Lane_ID>
+						<Maneuver>2</Maneuver>
+					</Lane_Connection>
+					<Lane_Connection Number="3">
+						<Conn_Lane_ID>7</Conn_Lane_ID>
+						<Maneuver>3</Maneuver>
+					</Lane_Connection>
+				</Lane_Connections>
+			</Lane>
+			<No_Egress_Lane>1</No_Egress_Lane>
+			<Lane Number="9">
+				<Type>1</Type>
+				<Attributes>1</Attributes>
+				<Width>325</Width>
+				<No_nodes>2</No_nodes>
+				<Nodes>
+					<Node Number="1">
+						<Latitude>42.300400</Latitude>
+						<Longitude>-83.698817</Longitude>
+					</Node>
+					<Node Number="2">
+						<Latitude>42.300400</Latitude>
+						<Longitude>-83.699049</Longitude>
+					</Node>
+				</Nodes>
+				<No_Conn_Lane>0</No_Conn_Lane>
+			</Lane>
+		</Approach>
+	</Geometry>
+</J2735.GID.blob>  

@@ -1,0 +1,360 @@
+value MapData ::= {
+  msgIssueRevision 5,
+  layerType intersectionData,
+  layerID 0,
+  intersections {
+    {
+      id {
+        id 2571
+      },
+      revision 5,
+      refPoint {
+        lat 423003788,
+        long -836979354,
+        elevation 2720
+      },
+      laneWidth 366,
+      laneSet {
+        {
+          laneID 1,
+          name "Wolverine x Liberty Southbound Ingr" -- truncated --,
+          ingressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836979710,
+                lat 423005021
+              },
+              attributes {
+                dWidth 29
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979643,
+                lat 423008234
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 5,
+                maneuver {maneuverStraightAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverRightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 4,
+          name "Wolverine x Liberty Northbound Egre" -- truncated --,
+          egressApproach 4,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836978892,
+                lat 423005011
+              },
+              attributes {
+                dWidth -20
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836978838,
+                lat 423008274
+              }
+            }
+          }
+        },
+        {
+          laneID 2,
+          name "Wolverine x Liberty Northbound Ingr" -- truncated --,
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836978918,
+                lat 423003042
+              },
+              attributes {
+                dWidth -25
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836978892,
+                lat 423001430
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979160,
+                lat 423000557
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979857,
+                lat 422999724
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836981386,
+                lat 422998771
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836983210,
+                lat 422997660
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 4,
+                maneuver {maneuverStraightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 7,
+          name "Wolverine x Liberty Northbound Ingr" -- truncated --,
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836979341,
+                lat 423003017
+              },
+              attributes {
+                dWidth -25
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979347,
+                lat 423001401
+              },
+              attributes {
+                dElevation -360
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979482,
+                lat 423000885
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979770,
+                lat 423000409
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836980186,
+                lat 422999957
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836981674,
+                lat 422999000
+              },
+              attributes {
+                dElevation -10
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836983538,
+                lat 422997889
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 6,
+                maneuver {maneuverLeftAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 5,
+          name "Wolverine x Liberty Southbound Egre" -- truncated --,
+          egressApproach 5,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836979790,
+                lat 423003022
+              },
+              attributes {
+                dWidth -53
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979810,
+                lat 423001386
+              },
+              attributes {
+                dElevation -360
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979964,
+                lat 423000835
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836980306,
+                lat 423000305
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836981017,
+                lat 422999838
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836981976,
+                lat 422999307
+              },
+              attributes {
+                dElevation 360
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836982969,
+                lat 422999029
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836984256,
+                lat 422999089
+              }
+            }
+          }
+        },
+        {
+          laneID 3,
+          name "Wolverine x Liberty Eastbound Ingre" -- truncated --,
+          ingressApproach 3,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836980964,
+                lat 423003513
+              },
+              attributes {
+                dWidth -9
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985222,
+                lat 423003533
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 4,
+                maneuver {maneuverLeftAllowed}
+              }
+            },
+            {
+              connectingLane {
+                lane 5,
+                maneuver {maneuverRightAllowed}
+              }
+            }
+          }
+        },
+        {
+          laneID 6,
+          name "Wolverine x Liberty Westbound Egres" -- truncated --,
+          egressApproach 6,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836980977,
+                lat 423004078
+              },
+              attributes {
+                dWidth -17
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985195,
+                lat 423004088
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
