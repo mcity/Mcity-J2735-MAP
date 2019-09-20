@@ -1,5 +1,5 @@
 value MapData ::= {
-  msgIssueRevision 5,
+  msgIssueRevision 7,
   layerType intersectionData,
   layerID 0,
   intersections {
@@ -7,7 +7,7 @@ value MapData ::= {
       id {
         id 2571
       },
-      revision 5,
+      revision 7,
       refPoint {
         lat 423003788,
         long -836979354,
@@ -47,13 +47,15 @@ value MapData ::= {
               connectingLane {
                 lane 5,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 2
             },
             {
               connectingLane {
                 lane 6,
                 maneuver {maneuverRightAllowed}
-              }
+              },
+              signalGroup 2
             }
           }
         },
@@ -140,7 +142,8 @@ value MapData ::= {
               connectingLane {
                 lane 4,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 6
             }
           }
         },
@@ -212,7 +215,8 @@ value MapData ::= {
               connectingLane {
                 lane 6,
                 maneuver {maneuverLeftAllowed}
-              }
+              },
+              signalGroup 6
             }
           }
         },
@@ -317,13 +321,15 @@ value MapData ::= {
               connectingLane {
                 lane 4,
                 maneuver {maneuverLeftAllowed}
-              }
+              },
+              signalGroup 4
             },
             {
               connectingLane {
                 lane 5,
                 maneuver {maneuverRightAllowed}
-              }
+              },
+              signalGroup 64
             }
           }
         },

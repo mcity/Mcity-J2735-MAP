@@ -1,5 +1,5 @@
 value MapData ::= {
-  msgIssueRevision 3,
+  msgIssueRevision 7,
   layerType intersectionData,
   layerID 1,
   intersections {
@@ -7,11 +7,11 @@ value MapData ::= {
       id {
         id 2573
       },
-      revision 3,
+      revision 7,
       refPoint {
         lat 423008849,
         long -836985992,
-        elevation 2690
+        elevation 2740
       },
       laneWidth 366,
       speedLimits {
@@ -45,12 +45,18 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836985459,
                 lat 423000679
+              },
+              attributes {
+                dElevation -20
               }
             },
             {
               delta node-LatLon : {
                 lon -836984765,
                 lat 422999104
+              },
+              attributes {
+                dElevation -10
               }
             }
           },
@@ -62,7 +68,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 6
             },
             {
               connectingLane {
@@ -71,7 +78,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 6
             }
           }
         },
@@ -98,6 +106,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836985224,
                 lat 423003924
+              },
+              attributes {
+                dElevation -10
               }
             }
           }
@@ -126,6 +137,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836985881,
                 lat 423003918
+              },
+              attributes {
+                dElevation -10
               }
             }
           },
@@ -137,7 +151,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 1
             },
             {
               connectingLane {
@@ -146,7 +161,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 1
             }
           }
         },
@@ -174,6 +190,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836987900,
                 lat 423008674
+              },
+              attributes {
+                dElevation -10
               }
             }
           },
@@ -185,7 +204,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 3
             }
           }
         },
@@ -213,6 +233,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836989569,
                 lat 423008334
+              },
+              attributes {
+                dElevation -10
               }
             }
           },
@@ -224,7 +247,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 8
             }
           }
         },
@@ -254,7 +278,7 @@ value MapData ::= {
                 lat 423008014
               },
               attributes {
-                dElevation -330
+                dElevation -10
               }
             }
           },
@@ -266,7 +290,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 8
             }
           }
         },
@@ -294,6 +319,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836979994,
                 lat 423009183
+              },
+              attributes {
+                dElevation 10
               }
             }
           },
@@ -305,7 +333,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 4
             },
             {
               connectingLane {
@@ -314,7 +343,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 4
             },
             {
               connectingLane {
@@ -323,7 +353,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 4
             }
           }
         },
@@ -351,6 +382,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836982851,
                 lat 423008816
+              },
+              attributes {
+                dElevation 10
               }
             }
           },
@@ -362,7 +396,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 7
             }
           }
         },
@@ -389,6 +424,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836986351,
                 lat 423003928
+              },
+              attributes {
+                dElevation -10
               }
             }
           }
@@ -416,6 +454,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836986659,
                 lat 423003923
+              },
+              attributes {
+                dElevation -10
               }
             }
           }
@@ -443,6 +484,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836980034,
                 lat 423008307
+              },
+              attributes {
+                dElevation 10
               }
             }
           }
@@ -497,6 +541,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836989442,
                 lat 423009210
+              },
+              attributes {
+                dElevation -10
               }
             }
           }
@@ -524,6 +571,9 @@ value MapData ::= {
               delta node-LatLon : {
                 lon -836989442,
                 lat 423009527
+              },
+              attributes {
+                dElevation -10
               }
             }
           }
@@ -563,7 +613,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 2
             },
             {
               connectingLane {
@@ -572,7 +623,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 2
             },
             {
               connectingLane {
@@ -581,7 +633,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 2
             },
             {
               connectingLane {
@@ -590,7 +643,8 @@ value MapData ::= {
               },
               remoteIntersection {
                 id 2522
-              }
+              },
+              signalGroup 2
             }
           }
         },

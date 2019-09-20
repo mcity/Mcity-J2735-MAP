@@ -1,5 +1,5 @@
 value MapData ::= {
-  msgIssueRevision 1,
+  msgIssueRevision 6,
   layerType intersectionData,
   layerID 0,
   intersections {
@@ -7,7 +7,7 @@ value MapData ::= {
       id {
         id 2580
       },
-      revision 1,
+      revision 6,
       refPoint {
         lat 422997504,
         long -836972627,

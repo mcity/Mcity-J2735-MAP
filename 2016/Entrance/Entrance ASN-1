@@ -1,5 +1,5 @@
 value MapData ::= {
-  msgIssueRevision 5,
+  msgIssueRevision 7,
   layerType intersectionData,
   layerID 1,
   intersections {
@@ -7,7 +7,7 @@ value MapData ::= {
       id {
         id 2575
       },
-      revision 5,
+      revision 7,
       refPoint {
         lat 422992846,
         long -836990973,
@@ -26,7 +26,7 @@ value MapData ::= {
       },
       laneSet {
         {
-          laneID 1,
+          laneID 6,
           name "Entrance Southbound Ingress",
           ingressApproach 1,
           laneAttributes {
@@ -55,21 +55,24 @@ value MapData ::= {
           connectsTo {
             {
               connectingLane {
-                lane 6,
+                lane 3,
                 maneuver {maneuverLeftAllowed}
-              }
+              },
+              signalGroup 6
+            },
+            {
+              connectingLane {
+                lane 1,
+                maneuver {maneuverStraightAllowed}
+              },
+              signalGroup 6
             },
             {
               connectingLane {
                 lane 7,
-                maneuver {maneuverStraightAllowed}
-              }
-            },
-            {
-              connectingLane {
-                lane 8,
                 maneuver {maneuverRightAllowed}
-              }
+              },
+              signalGroup 6
             }
           }
         },
@@ -101,7 +104,7 @@ value MapData ::= {
           }
         },
         {
-          laneID 2,
+          laneID 8,
           name "Entrance Westbound Ingress",
           ingressApproach 2,
           laneAttributes {
@@ -144,24 +147,27 @@ value MapData ::= {
               connectingLane {
                 lane 5,
                 maneuver {maneuverRightAllowed}
-              }
+              },
+              signalGroup 8
             },
             {
               connectingLane {
-                lane 7,
+                lane 1,
                 maneuver {maneuverLeftAllowed}
-              }
+              },
+              signalGroup 8
             },
             {
               connectingLane {
-                lane 8,
+                lane 3,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 8
             }
           }
         },
         {
-          laneID 6,
+          laneID 7,
           name "Entrance Eastbound Egress",
           egressApproach 6,
           laneAttributes {
@@ -200,7 +206,7 @@ value MapData ::= {
           }
         },
         {
-          laneID 3,
+          laneID 2,
           name "Entrance Northbound Ingress",
           ingressApproach 3,
           laneAttributes {
@@ -243,24 +249,27 @@ value MapData ::= {
               connectingLane {
                 lane 5,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 2
             },
             {
               connectingLane {
-                lane 6,
+                lane 7,
                 maneuver {maneuverRightAllowed}
-              }
+              },
+              signalGroup 2
             },
             {
               connectingLane {
-                lane 8,
+                lane 3,
                 maneuver {maneuverLeftAllowed}
-              }
+              },
+              signalGroup 2
             }
           }
         },
         {
-          laneID 7,
+          laneID 1,
           name "Entrance Southbound Egress",
           egressApproach 7,
           laneAttributes {
@@ -360,24 +369,27 @@ value MapData ::= {
               connectingLane {
                 lane 5,
                 maneuver {maneuverLeftAllowed}
-              }
+              },
+              signalGroup 4
             },
             {
               connectingLane {
                 lane 6,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 4
             },
             {
               connectingLane {
-                lane 7,
+                lane 1,
                 maneuver {maneuverRightAllowed}
-              }
+              },
+              signalGroup 4
             }
           }
         },
         {
-          laneID 8,
+          laneID 3,
           name "Entrance Westbound Egress",
           egressApproach 8,
           laneAttributes {

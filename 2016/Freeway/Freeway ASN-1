@@ -1,5 +1,5 @@
 value MapData ::= {
-  msgIssueRevision 5,
+  msgIssueRevision 7,
   layerType intersectionData,
   layerID 0,
   intersections {
@@ -7,7 +7,7 @@ value MapData ::= {
       id {
         id 2574
       },
-      revision 5,
+      revision 7,
       refPoint {
         lat 423006071,
         long -836974414
@@ -56,7 +56,8 @@ value MapData ::= {
               connectingLane {
                 lane 5,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 2
             }
           }
         },
@@ -102,7 +103,8 @@ value MapData ::= {
               connectingLane {
                 lane 4,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 2
             }
           }
         },
@@ -142,7 +144,8 @@ value MapData ::= {
               connectingLane {
                 lane 3,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 2
             }
           }
         },
@@ -182,7 +185,8 @@ value MapData ::= {
               connectingLane {
                 lane 2,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 2
             }
           }
         },
@@ -222,7 +226,8 @@ value MapData ::= {
               connectingLane {
                 lane 1,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 2
             }
           }
         },
@@ -259,7 +264,8 @@ value MapData ::= {
               connectingLane {
                 lane 8,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 6
             }
           }
         },
@@ -296,7 +302,8 @@ value MapData ::= {
               connectingLane {
                 lane 9,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 6
             }
           }
         },
@@ -333,7 +340,8 @@ value MapData ::= {
               connectingLane {
                 lane 10,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 6
             }
           }
         },
@@ -370,7 +378,8 @@ value MapData ::= {
               connectingLane {
                 lane 7,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 6
             }
           }
         },
@@ -407,7 +416,8 @@ value MapData ::= {
               connectingLane {
                 lane 6,
                 maneuver {maneuverStraightAllowed}
-              }
+              },
+              signalGroup 6
             }
           }
         }
