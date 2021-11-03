@@ -8,8 +8,8 @@ IDs for intersections in Mcity are identified by the following IDs/Names.
 * 2571 - Liberty_Wolverine
 * 2572 - Main_Wolverine
 * 2573 - Main_State
-* 2576 - Main_M98	
-* 2577 - Liberty_M98
+* 2576 - Main_Pontiac	
+* 2577 - Liberty_Pontiac
 * 2574 - Main_Straightway
 * 2575 - Entrance	
 
