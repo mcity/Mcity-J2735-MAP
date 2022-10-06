@@ -1,0 +1,237 @@
+value MessageFrame ::= {
+  messageId 18,
+  value MapData : {
+    msgIssueRevision 7,
+    layerType intersectionData,
+    layerID 0,
+    intersections {
+      {
+        id {
+          id 2577
+        },
+        revision 7,
+        refPoint {
+          lat 423003962,
+          long -836991447,
+          elevation 2700
+        },
+        laneWidth 366,
+        laneSet {
+          {
+            laneID 1,
+            name "Pontiac x Liberty Southbound Ingres" -- truncated --,
+            ingressApproach 1,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x -125,
+                  y 829
+                },
+                attributes {
+                  dWidth -53
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 492,
+                  y 4011
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 5,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 2
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 2
+              }
+            }
+          },
+          {
+            laneID 4,
+            name "Pontiac x Liberty Northbound egress",
+            egressApproach 4,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 240,
+                  y 818
+                },
+                attributes {
+                  dWidth -53
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 437,
+                  y 3967
+                }
+              }
+            }
+          },
+          {
+            laneID 2,
+            name "Pontiac x Liberty Westbound Ingress",
+            ingressApproach 2,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 605,
+                  y 311
+                },
+                attributes {
+                  dWidth -17
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 2720,
+                  y -143
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 4,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 4
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 4
+              }
+            }
+          },
+          {
+            laneID 5,
+            name "Pontiac x Liberty Eastbound Egress",
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 616,
+                  y -174
+                },
+                attributes {
+                  dWidth -4
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 2687,
+                  y -143
+                }
+              }
+            }
+          },
+          {
+            laneID 3,
+            name "Pontiac x Liberty Northbound Ingres" -- truncated --,
+            ingressApproach 3,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 8,
+                  y -691
+                },
+                attributes {
+                  dWidth -40
+                }
+              },
+              {
+                delta node-XY5 : {
+                  x -343,
+                  y -4176
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 4,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 2
+              },
+              {
+                connectingLane {
+                  lane 5,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 2
+              }
+            }
+          },
+          {
+            laneID 6,
+            name "Pontiac x Liberty Southbound Egress",
+            egressApproach 6,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x -335,
+                  y -691
+                },
+                attributes {
+                  dWidth -53
+                }
+              },
+              {
+                delta node-XY5 : {
+                  x -365,
+                  y -4154
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

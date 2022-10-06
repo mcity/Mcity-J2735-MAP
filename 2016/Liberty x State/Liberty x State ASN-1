@@ -1,632 +1,636 @@
-value MapData ::= {
-  msgIssueRevision 7,
-  layerType intersectionData,
-  layerID 0,
-  intersections {
-    {
-      id {
-        id 2570
-      },
-      revision 7,
-      refPoint {
-        lat 423003768,
-        long -836986624
-      },
-      laneWidth 366,
-      laneSet {
-        {
-          laneID 7,
-          name "Liberty x State Northbound bike egr" -- truncated --,
-          egressApproach 5,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType bikeLane : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836985907,
-                lat 423004686
-              },
-              attributes {
-                dWidth -213
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836985860,
-                lat 423008514
-              }
-            }
-          }
+value MessageFrame ::= {
+  messageId 18,
+  value MapData : {
+    msgIssueRevision 8,
+    layerType intersectionData,
+    layerID 0,
+    intersections {
+      {
+        id {
+          id 2570
         },
-        {
-          laneID 6,
-          name "Liberty x State Northbound Egress",
-          egressApproach 5,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836986262,
-                lat 423004676
-              },
-              attributes {
-                dWidth -53
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836986249,
-                lat 423008524
-              }
-            }
-          }
+        revision 8,
+        refPoint {
+          lat 423003768,
+          long -836986624,
+          elevation 2760
         },
-        {
-          laneID 11,
-          name "Liberty x State Northbound Egress",
-          egressApproach 5,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836986604,
-                lat 423004686
-              },
-              attributes {
-                dWidth 13
-              }
+        laneWidth 366,
+        laneSet {
+          {
+            laneID 7,
+            name "Liberty x State Northbound bike egr" -- truncated --,
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType bikeLane : {}
             },
-            {
-              delta node-LatLon : {
-                lon -836986638,
-                lat 423008514
-              }
-            }
-          }
-        },
-        {
-          laneID 1,
-          name "Liberty x State Southbound Ingress",
-          ingressApproach 1,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836986973,
-                lat 423004700
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 592,
+                  y 1019
+                },
+                attributes {
+                  dWidth -213
+                }
               },
-              attributes {
-                dWidth 1
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987040,
-                lat 423008485
+              {
+                delta node-XY5 : {
+                  x 39,
+                  y 4253
+                }
               }
             }
           },
-          connectsTo {
-            {
-              connectingLane {
-                lane 8,
-                maneuver {maneuverLeftAllowed}
-              },
-              signalGroup 2
+          {
+            laneID 6,
+            name "Liberty x State Northbound Egress",
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
             },
-            {
-              connectingLane {
-                lane 9,
-                maneuver {maneuverStraightAllowed}
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 299,
+                  y 1008
+                },
+                attributes {
+                  dWidth -53
+                }
               },
-              signalGroup 2
-            },
-            {
-              connectingLane {
-                lane 12,
-                maneuver {maneuverStraightAllowed}
-              },
-              signalGroup 2
-            },
-            {
-              connectingLane {
-                lane 10,
-                maneuver {maneuverRightAllowed}
-              },
-              signalGroup 2
-            }
-          }
-        },
-        {
-          laneID 5,
-          name "Liberty x State Southbound bike ing" -- truncated --,
-          ingressApproach 1,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType bikeLane : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836987342,
-                lat 423004710
-              },
-              attributes {
-                dWidth -228
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987429,
-                lat 423008494
-              }
-            }
-          }
-        },
-        {
-          laneID 2,
-          name "Liberty x State Westbound Ingress",
-          ingressApproach 2,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836985196,
-                lat 423004195
-              },
-              attributes {
-                dWidth -15
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836980710,
-                lat 423004170
+              {
+                delta node-XY5 : {
+                  x 11,
+                  y 4275
+                }
               }
             }
           },
-          connectsTo {
-            {
-              connectingLane {
-                lane 11,
-                maneuver {maneuverRightAllowed}
+          {
+            laneID 11,
+            name "Liberty x State Northbound Egress",
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 17,
+                  y 1019
+                },
+                attributes {
+                  dWidth 13
+                }
               },
-              signalGroup 4
-            },
-            {
-              connectingLane {
-                lane 6,
-                maneuver {maneuverRightAllowed}
-              },
-              signalGroup 4
-            },
-            {
-              connectingLane {
-                lane 9,
-                maneuver {maneuverLeftAllowed}
-              },
-              signalGroup 4
-            },
-            {
-              connectingLane {
-                lane 12,
-                maneuver {maneuverLeftAllowed}
-              },
-              signalGroup 4
-            },
-            {
-              connectingLane {
-                lane 10,
-                maneuver {maneuverStraightAllowed}
-              },
-              signalGroup 4
-            }
-          }
-        },
-        {
-          laneID 8,
-          name "Liberty x State Eastbound Egress",
-          egressApproach 6,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836985216,
-                lat 423003525
-              },
-              attributes {
-                dWidth -10
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836980509,
-                lat 423003426
-              }
-            }
-          }
-        },
-        {
-          laneID 3,
-          name "Liberty x State Northbound Ingress",
-          ingressApproach 3,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836985947,
-                lat 423002727
-              },
-              attributes {
-                dWidth -27
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836985954,
-                lat 423001363
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836985766,
-                lat 423000728
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836985310,
-                lat 422999736
+              {
+                delta node-XY5 : {
+                  x -28,
+                  y 4253
+                }
               }
             }
           },
-          connectsTo {
-            {
-              connectingLane {
-                lane 11,
-                maneuver {maneuverStraightAllowed}
+          {
+            laneID 1,
+            name "Liberty x State Southbound Ingress",
+            ingressApproach 1,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -288,
+                  y 1036
+                },
+                attributes {
+                  dWidth 1
+                }
               },
-              signalGroup 6
+              {
+                delta node-XY5 : {
+                  x -55,
+                  y 4203
+                }
+              }
             },
-            {
-              connectingLane {
-                lane 6,
-                maneuver {maneuverStraightAllowed}
+            connectsTo {
+              {
+                connectingLane {
+                  lane 8,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 2
               },
-              signalGroup 6
-            },
-            {
-              connectingLane {
-                lane 8,
-                maneuver {maneuverRightAllowed}
+              {
+                connectingLane {
+                  lane 9,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 2
               },
-              signalGroup 6
-            }
-          }
-        },
-        {
-          laneID 13,
-          name "Liberty x State Northbound ingress",
-          ingressApproach 3,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836986356,
-                lat 423002702
+              {
+                connectingLane {
+                  lane 12,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 2
               },
-              attributes {
-                dWidth -81
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836986369,
-                lat 423001432
-              }
-            }
-          },
-          connectsTo {
-            {
-              connectingLane {
-                lane 10,
-                maneuver {maneuverLeftAllowed}
-              },
-              signalGroup 6
-            }
-          }
-        },
-        {
-          laneID 9,
-          name "Liberty x State  Southbound Egress",
-          egressApproach 7,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836986718,
-                lat 423002692
-              },
-              attributes {
-                dWidth -60
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836986758,
-                lat 423000718
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987107,
-                lat 422999954
-              }
-            }
-          }
-        },
-        {
-          laneID 12,
-          name "Liberty x State southbound Egress",
-          egressApproach 7,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836987214,
-                lat 423002667
-              },
-              attributes {
-                dWidth -35
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987255,
-                lat 423001482
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987375,
-                lat 423000777
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987804,
-                lat 423000103
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836988086,
-                lat 422999914
-              }
-            }
-          }
-        },
-        {
-          laneID 10,
-          name "Liberty x State Westbound Egress",
-          egressApproach 8,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836988220,
-                lat 423003996
-              },
-              attributes {
-                dWidth -6
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836990963,
-                lat 423004006
-              }
-            }
-          }
-        },
-        {
-          laneID 4,
-          name "Liberty x State Eastbound Ingress",
-          ingressApproach 4,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836988160,
-                lat 423003644
-              },
-              attributes {
-                dWidth -25
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836990996,
-                lat 423003654
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 2
               }
             }
           },
-          connectsTo {
-            {
-              connectingLane {
-                lane 11,
-                maneuver {maneuverLeftAllowed}
-              },
-              signalGroup 8
+          {
+            laneID 5,
+            name "Liberty x State Southbound bike ing" -- truncated --,
+            ingressApproach 1,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType bikeLane : {}
             },
-            {
-              connectingLane {
-                lane 6,
-                maneuver {maneuverLeftAllowed}
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -592,
+                  y 1047
+                },
+                attributes {
+                  dWidth -228
+                }
               },
-              signalGroup 8
-            },
-            {
-              connectingLane {
-                lane 8,
-                maneuver {maneuverStraightAllowed}
-              },
-              signalGroup 8
-            },
-            {
-              connectingLane {
-                lane 9,
-                maneuver {maneuverRightAllowed}
-              },
-              signalGroup 8
-            },
-            {
-              connectingLane {
-                lane 12,
-                maneuver {maneuverRightAllowed}
-              },
-              signalGroup 8
-            }
-          }
-        },
-        {
-          laneID 14,
-          name "Liberty x State West crosswalk",
-          laneAttributes {
-            directionalUse {},
-            sharedWith {},
-            laneType crosswalk : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836988047,
-                lat 423004191
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987860,
-                lat 423003255
+              {
+                delta node-XY5 : {
+                  x -72,
+                  y 4203
+                }
               }
             }
-          }
-        },
-        {
-          laneID 15,
-          name "Liberty x State North Crosswalk",
-          laneAttributes {
-            directionalUse {},
-            sharedWith {},
-            laneType crosswalk : {}
           },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836985818,
-                lat 423004459
+          {
+            laneID 2,
+            name "Liberty x State Westbound Ingress",
+            ingressApproach 2,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1178,
+                  y 474
+                },
+                attributes {
+                  dWidth -15
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 3699,
+                  y -28
+                }
               }
             },
-            {
-              delta node-LatLon : {
-                lon -836987497,
-                lat 423004466
+            connectsTo {
+              {
+                connectingLane {
+                  lane 11,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 4
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 4
+              },
+              {
+                connectingLane {
+                  lane 9,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 4
+              },
+              {
+                connectingLane {
+                  lane 12,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 4
+              },
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 4
               }
             }
-          }
-        },
-        {
-          laneID 17,
-          name "Liberty x Wolverine East crosswalk",
-          laneAttributes {
-            directionalUse {},
-            sharedWith {},
-            laneType crosswalk : {}
           },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836985385,
-                lat 423003334
-              }
+          {
+            laneID 8,
+            name "Liberty x State Eastbound Egress",
+            egressApproach 6,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
             },
-            {
-              delta node-LatLon : {
-                lon -836985394,
-                lat 423004476
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1161,
+                  y -270
+                },
+                attributes {
+                  dWidth -10
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 3882,
+                  y -110
+                }
               }
             }
-          }
-        },
-        {
-          laneID 16,
-          name "Liberty x State South Crosswalk",
-          laneAttributes {
-            directionalUse {},
-            sharedWith {},
-            laneType crosswalk : {}
           },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836985845,
-                lat 423002935
+          {
+            laneID 3,
+            name "Liberty x State Northbound Ingress",
+            ingressApproach 3,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 558,
+                  y -1157
+                },
+                attributes {
+                  dWidth -27
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -6,
+                  y -1515
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x 155,
+                  y -705
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 376,
+                  y -1102
+                }
               }
             },
-            {
-              delta node-LatLon : {
-                lon -836987479,
-                lat 423002869
+            connectsTo {
+              {
+                connectingLane {
+                  lane 11,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 6
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 6
+              },
+              {
+                connectingLane {
+                  lane 8,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 6
+              }
+            }
+          },
+          {
+            laneID 13,
+            name "Liberty x State Northbound ingress",
+            ingressApproach 3,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 221,
+                  y -1184
+                },
+                attributes {
+                  dWidth -81
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -11,
+                  y -1410
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 6
+              }
+            }
+          },
+          {
+            laneID 9,
+            name "Liberty x State  Southbound Egress",
+            egressApproach 7,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -77,
+                  y -1195
+                },
+                attributes {
+                  dWidth -60
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -33,
+                  y -2193
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -288,
+                  y -848
+                }
+              }
+            }
+          },
+          {
+            laneID 12,
+            name "Liberty x State southbound Egress",
+            egressApproach 7,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -487,
+                  y -1223
+                },
+                attributes {
+                  dWidth -35
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -33,
+                  y -1317
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -100,
+                  y -782
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -354,
+                  y -749
+                }
+              },
+              {
+                delta node-XY1 : {
+                  x -232,
+                  y -209
+                }
+              }
+            }
+          },
+          {
+            laneID 10,
+            name "Liberty x State Westbound Egress",
+            egressApproach 8,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -1316,
+                  y 253
+                },
+                attributes {
+                  dWidth -6
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -2262,
+                  y 11
+                }
+              }
+            }
+          },
+          {
+            laneID 4,
+            name "Liberty x State Eastbound Ingress",
+            ingressApproach 4,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -1266,
+                  y -138
+                },
+                attributes {
+                  dWidth -25
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -2339,
+                  y 11
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 11,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 8
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 8
+              },
+              {
+                connectingLane {
+                  lane 8,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 8
+              },
+              {
+                connectingLane {
+                  lane 9,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 8
+              },
+              {
+                connectingLane {
+                  lane 12,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 8
+              }
+            }
+          },
+          {
+            laneID 14,
+            name "Liberty x State West crosswalk",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -1173,
+                  y 470
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 154,
+                  y -1040
+                }
+              }
+            }
+          },
+          {
+            laneID 15,
+            name "Liberty x State North Crosswalk",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 665,
+                  y 768
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1385,
+                  y 8
+                }
+              }
+            }
+          },
+          {
+            laneID 17,
+            name "Liberty x Wolverine East crosswalk",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 1022,
+                  y -482
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -7,
+                  y 1269
+                }
+              }
+            }
+          },
+          {
+            laneID 16,
+            name "Liberty x State South Crosswalk",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 643,
+                  y -926
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1347,
+                  y -73
+                }
               }
             }
           }
