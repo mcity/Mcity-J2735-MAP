@@ -1,7 +1,7 @@
 value MessageFrame ::= {
   messageId 18,
   value MapData : {
-    msgIssueRevision 9,
+    msgIssueRevision 8,
     layerType intersectionData,
     layerID 0,
     intersections {
@@ -9,7 +9,7 @@ value MessageFrame ::= {
         id {
           id 2574
         },
-        revision 9,
+        revision 8,
         refPoint {
           lat 423006071,
           long -836974414,
@@ -30,38 +30,27 @@ value MessageFrame ::= {
             maneuvers {maneuverStraightAllowed},
             nodeList nodes : {
               {
-                delta node-XY2 : {
-                  x 540,
-                  y -498
+                delta node-XY1 : {
+                  x 505,
+                  y -17
                 },
                 attributes {
-                  dWidth 82,
-                  dElevation -400
+                  dWidth 82
                 }
               },
               {
-                delta node-XY3 : {
-                  x 11,
-                  y -1989
-                },
-                attributes {
-                  dElevation -10
-                }
-              },
-              {
-                delta node-XY2 : {
-                  x 88,
-                  y -992
+                delta node-XY4 : {
+                  x 61,
+                  y -3460
                 }
               },
               {
                 delta node-XY5 : {
-                  x 658,
-                  y -5371
+                  x 850,
+                  y -5331
                 },
                 attributes {
-                  dWidth 82,
-                  dElevation -20
+                  dWidth 82
                 }
               }
             },
@@ -89,28 +78,26 @@ value MessageFrame ::= {
             nodeList nodes : {
               {
                 delta node-XY1 : {
-                  x 98,
-                  y -498
+                  x 85,
+                  y -22
                 },
                 attributes {
-                  dWidth 1,
-                  dElevation -400
+                  dWidth 1
                 }
               },
               {
-                delta node-XY5 : {
-                  x -17,
-                  y -7630
+                delta node-XY6 : {
+                  x -94,
+                  y -8512
                 },
                 attributes {
-                  dWidth 1,
-                  dElevation -30
+                  dWidth 1
                 }
               },
               {
-                delta node-XY2 : {
+                delta node-XY1 : {
                   x -6,
-                  y -512
+                  y -132
                 }
               }
             },
@@ -138,22 +125,20 @@ value MessageFrame ::= {
             nodeList nodes : {
               {
                 delta node-XY1 : {
-                  x -262,
-                  y -498
+                  x -296,
+                  y -33
                 },
                 attributes {
-                  dWidth 3,
-                  dElevation -400
+                  dWidth 3
                 }
               },
               {
-                delta node-XY5 : {
-                  x -72,
-                  y -8142
+                delta node-XY6 : {
+                  x -83,
+                  y -8622
                 },
                 attributes {
-                  dWidth 3,
-                  dElevation -30
+                  dWidth 3
                 }
               }
             },
@@ -181,22 +166,20 @@ value MessageFrame ::= {
             nodeList nodes : {
               {
                 delta node-XY2 : {
-                  x -577,
-                  y -498
+                  x -672,
+                  y -39
                 },
                 attributes {
-                  dWidth 3,
-                  dElevation -390
+                  dWidth 3
                 }
               },
               {
-                delta node-XY5 : {
+                delta node-XY6 : {
                   x -66,
-                  y -8159
+                  y -8622
                 },
                 attributes {
-                  dWidth 3,
-                  dElevation -40
+                  dWidth 3
                 }
               }
             },
@@ -224,22 +207,20 @@ value MessageFrame ::= {
             nodeList nodes : {
               {
                 delta node-XY2 : {
-                  x -969,
-                  y -509
+                  x -1016,
+                  y -37
                 },
                 attributes {
-                  dWidth -45,
-                  dElevation -390
+                  dWidth -45
                 }
               },
               {
-                delta node-XY5 : {
-                  x -33,
-                  y -8126
+                delta node-XY6 : {
+                  x -49,
+                  y -8618
                 },
                 attributes {
-                  dWidth -44,
-                  dElevation -40
+                  dWidth -44
                 }
               }
             },
@@ -266,22 +247,18 @@ value MessageFrame ::= {
             maneuvers {maneuverStraightAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x -223,
-                  y 1601
+                delta node-XY2 : {
+                  x -274,
+                  y 650
                 },
                 attributes {
-                  dWidth 3,
-                  dElevation -380
+                  dWidth 3
                 }
               },
               {
                 delta node-XY6 : {
-                  x 66,
-                  y 10621
-                },
-                attributes {
-                  dElevation 30
+                  x 0,
+                  y 11585
                 }
               }
             },
@@ -308,22 +285,18 @@ value MessageFrame ::= {
             maneuvers {maneuverStraightAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 164,
-                  y 1601
+                delta node-XY2 : {
+                  x 102,
+                  y 650
                 },
                 attributes {
-                  dWidth 1,
-                  dElevation -390
+                  dWidth 1
                 }
               },
               {
                 delta node-XY6 : {
-                  x 83,
-                  y 10632
-                },
-                attributes {
-                  dElevation 40
+                  x 0,
+                  y 11574
                 }
               }
             },
@@ -350,37 +323,18 @@ value MessageFrame ::= {
             maneuvers {maneuverStraightAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 568,
-                  y 1612
+                delta node-XY2 : {
+                  x 511,
+                  y 628
                 },
                 attributes {
-                  dWidth 82,
-                  dElevation -390
+                  dWidth 82
                 }
               },
               {
-                delta node-XY4 : {
-                  x 22,
-                  y 3730
-                },
-                attributes {
-                  dElevation 20
-                }
-              },
-              {
-                delta node-XY3 : {
-                  x 398,
-                  y 1509
-                }
-              },
-              {
-                delta node-XY3 : {
-                  x 658,
-                  y 1796
-                },
-                attributes {
-                  dElevation 10
+                delta node-XY6 : {
+                  x -11,
+                  y 11591
                 }
               }
             },
@@ -407,22 +361,18 @@ value MessageFrame ::= {
             maneuvers {maneuverStraightAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x -566,
-                  y 1584
+                delta node-XY2 : {
+                  x -667,
+                  y 633
                 },
                 attributes {
-                  dWidth 3,
-                  dElevation -380
+                  dWidth 3
                 }
               },
               {
                 delta node-XY6 : {
-                  x 83,
-                  y 10627
-                },
-                attributes {
-                  dElevation 30
+                  x 4,
+                  y 11604
                 }
               }
             },
@@ -449,22 +399,18 @@ value MessageFrame ::= {
             maneuvers {maneuverStraightAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x -931,
-                  y 1568
+                delta node-XY2 : {
+                  x -1021,
+                  y 639
                 },
                 attributes {
-                  dWidth -45,
-                  dElevation -380
+                  dWidth -45
                 }
               },
               {
                 delta node-XY6 : {
-                  x 72,
-                  y 10654
-                },
-                attributes {
-                  dElevation 30
+                  x 4,
+                  y 11576
                 }
               }
             },
@@ -483,4 +429,3 @@ value MessageFrame ::= {
     }
   }
 }
-

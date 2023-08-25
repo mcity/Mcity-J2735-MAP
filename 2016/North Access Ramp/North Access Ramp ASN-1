@@ -1,89 +1,92 @@
-value MapData ::= {
-  msgIssueRevision 6,
-  layerType intersectionData,
-  layerID 0,
-  intersections {
-    {
-      id {
-        id 2579
-      },
-      revision 6,
-      refPoint {
-        lat 423016385,
-        long -836970893,
-        elevation 1730
-      },
-      laneWidth 366,
-      laneSet {
-        {
-          laneID 1,
-          name "North Access ramp southbound ingres" -- truncated --,
-          ingressApproach 1,
-          egressApproach 1,
-          laneAttributes {
-            directionalUse {ingressPath, egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          maneuvers {maneuverStraightAllowed},
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836970439,
-                lat 423016558
-              },
-              attributes {
-                dWidth 80
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836967569,
-                lat 423020709
-              }
-            }
-          },
-          connectsTo {
-            {
-              connectingLane {
-                lane 2,
-                maneuver {maneuverStraightAllowed}
-              }
-            }
-          }
+value MessageFrame ::= {
+  messageId 18,
+  value MapData : {
+    msgIssueRevision 7,
+    layerType intersectionData,
+    layerID 0,
+    intersections {
+      {
+        id {
+          id 2579
         },
-        {
-          laneID 2,
-          name "North Access Ramp northbound ingres" -- truncated --,
-          ingressApproach 2,
-          egressApproach 2,
-          laneAttributes {
-            directionalUse {ingressPath, egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836970627,
-                lat 423016191
+        revision 7,
+        refPoint {
+          lat 423016385,
+          long -836970893,
+          elevation 1730
+        },
+        laneWidth 366,
+        laneSet {
+          {
+            laneID 1,
+            name "North Access ramp southbound ingres" -- truncated --,
+            ingressApproach 1,
+            egressApproach 1,
+            laneAttributes {
+              directionalUse {ingressPath, egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY1 : {
+                  x 374,
+                  y 192
+                },
+                attributes {
+                  dWidth 80
+                }
               },
-              attributes {
-                dWidth 80
+              {
+                delta node-XY5 : {
+                  x 2367,
+                  y 4611
+                }
               }
             },
-            {
-              delta node-LatLon : {
-                lon -836973523,
-                lat 423011286
+            connectsTo {
+              {
+                connectingLane {
+                  lane 2,
+                  maneuver {maneuverStraightAllowed}
+                }
               }
             }
           },
-          connectsTo {
-            {
-              connectingLane {
-                lane 1,
-                maneuver {maneuverStraightAllowed}
+          {
+            laneID 2,
+            name "North Access Ramp northbound ingres" -- truncated --,
+            ingressApproach 2,
+            egressApproach 2,
+            laneAttributes {
+              directionalUse {ingressPath, egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY1 : {
+                  x 220,
+                  y -216
+                },
+                attributes {
+                  dWidth 80
+                }
+              },
+              {
+                delta node-XY5 : {
+                  x -2389,
+                  y -5448
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 1,
+                  maneuver {maneuverStraightAllowed}
+                }
               }
             }
           }
@@ -92,3 +95,4 @@ value MapData ::= {
     }
   }
 }
+

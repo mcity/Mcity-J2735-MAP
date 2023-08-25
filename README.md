@@ -22,6 +22,9 @@ In addition, the child map files compatible with the website https://webapp.conn
 
 These files are found in the 2016 folder organized in subdirectory by intersection.
 
+When encoding J2735 MAP messages, use the Frame+Map message type, not just Map.
+
+
 ## 2009 J2735
 Hand generated XML files used on 2009 J2735 Mcity RSUs to define the MAP messages.
 

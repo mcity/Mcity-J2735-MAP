@@ -1,0 +1,746 @@
+value MapData ::= {
+  msgIssueRevision 7,
+  layerType intersectionData,
+  layerID 1,
+  intersections {
+    {
+      id {
+        id 2573
+      },
+      revision 7,
+      refPoint {
+        lat 423008849,
+        long -836985992,
+        elevation 2740
+      },
+      laneWidth 366,
+      speedLimits {
+        {
+          type vehicleMaxSpeed,
+          speed 559
+        }
+      },
+      laneSet {
+        {
+          laneID 6,
+          name "State Street Northbound ingress",
+          ingressApproach 3,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836985533,
+                lat 423007481
+              },
+              attributes {
+                dWidth -81
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985459,
+                lat 423000679
+              },
+              attributes {
+                dElevation -20
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836984765,
+                lat 422999104
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 11,
+                maneuver {maneuverStraightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 6
+            },
+            {
+              connectingLane {
+                lane 12,
+                maneuver {maneuverRightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 6
+            }
+          }
+        },
+        {
+          laneID 5,
+          name "State St. Northbound Bike Lane ingr" -- truncated --,
+          ingressApproach 3,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType bikeLane : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836985278,
+                lat 423007481
+              },
+              attributes {
+                dWidth -213
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985224,
+                lat 423003924
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          }
+        },
+        {
+          laneID 7,
+          name "State St. Northbound ingress left t" -- truncated --,
+          ingressApproach 3,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836985922,
+                lat 423007479
+              },
+              attributes {
+                dWidth -20
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985881,
+                lat 423003918
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 15,
+                maneuver {maneuverLeftAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 1
+            },
+            {
+              connectingLane {
+                lane 16,
+                maneuver {maneuverLeftAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 1
+            }
+          }
+        },
+        {
+          laneID 10,
+          name "State St. Eastbound ingress Left Tu" -- truncated --,
+          ingressApproach 4,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836987229,
+                lat 423008674
+              },
+              attributes {
+                dWidth -12
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987900,
+                lat 423008674
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 11,
+                maneuver {maneuverLeftAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 3
+            }
+          }
+        },
+        {
+          laneID 9,
+          name "Main St. Eastbound ingress",
+          ingressApproach 4,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836987214,
+                lat 423008359
+              },
+              attributes {
+                dWidth -6
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836989569,
+                lat 423008334
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 12,
+                maneuver {maneuverStraightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 8
+            }
+          }
+        },
+        {
+          laneID 8,
+          name "Main St. Eastbound ingress Left Tur" -- truncated --,
+          ingressApproach 4,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836987229,
+                lat 423008024
+              },
+              attributes {
+                dWidth -7
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836989549,
+                lat 423008014
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 13,
+                maneuver {maneuverRightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 8
+            }
+          }
+        },
+        {
+          laneID 3,
+          name "Main St. Westbound Ingress",
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836984648,
+                lat 423009212
+              },
+              attributes {
+                dWidth 16
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836979994,
+                lat 423009183
+              },
+              attributes {
+                dElevation 10
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 11,
+                maneuver {maneuverRightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 4
+            },
+            {
+              connectingLane {
+                lane 15,
+                maneuver {maneuverStraightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 4
+            },
+            {
+              connectingLane {
+                lane 16,
+                maneuver {maneuverStraightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 4
+            }
+          }
+        },
+        {
+          laneID 4,
+          name "Main St. Westbound ingress left tur" -- truncated --,
+          ingressApproach 2,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverLeftAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836984648,
+                lat 423008828
+              },
+              attributes {
+                dWidth 97
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836982851,
+                lat 423008816
+              },
+              attributes {
+                dElevation 10
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 13,
+                maneuver {maneuverLeftAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 7
+            }
+          }
+        },
+        {
+          laneID 13,
+          name "State Southbound egress",
+          egressApproach 7,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836986411,
+                lat 423007469
+              },
+              attributes {
+                dWidth -36
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836986351,
+                lat 423003928
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          }
+        },
+        {
+          laneID 14,
+          name "State southbound egress bike",
+          egressApproach 7,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType bikeLane : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836986726,
+                lat 423007469
+              },
+              attributes {
+                dWidth -213
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836986659,
+                lat 423003923
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          }
+        },
+        {
+          laneID 12,
+          name "Main Eastbound egress",
+          egressApproach 6,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836984654,
+                lat 423008342
+              },
+              attributes {
+                dWidth -4
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836980034,
+                lat 423008307
+              },
+              attributes {
+                dElevation 10
+              }
+            }
+          }
+        },
+        {
+          laneID 11,
+          name "Main x Liberty northbound egress",
+          egressApproach 5,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836985586,
+                lat 423010127
+              },
+              attributes {
+                dWidth 292
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985627,
+                lat 423013170
+              }
+            }
+          }
+        },
+        {
+          laneID 15,
+          name "Main westbound egress left-forward",
+          egressApproach 8,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836987162,
+                lat 423009215
+              },
+              attributes {
+                dWidth -32
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836989442,
+                lat 423009210
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          }
+        },
+        {
+          laneID 16,
+          name "Main Westbound egress right-turn",
+          egressApproach 8,
+          laneAttributes {
+            directionalUse {egressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836987169,
+                lat 423009532
+              },
+              attributes {
+                dWidth -18
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836989442,
+                lat 423009527
+              },
+              attributes {
+                dElevation -10
+              }
+            }
+          }
+        },
+        {
+          laneID 2,
+          name "State St. Southbound Ingress",
+          ingressApproach 1,
+          laneAttributes {
+            directionalUse {ingressPath},
+            sharedWith {},
+            laneType vehicle : {}
+          },
+          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836986425,
+                lat 423010122
+              },
+              attributes {
+                dWidth 275
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836986465,
+                lat 423013118
+              }
+            }
+          },
+          connectsTo {
+            {
+              connectingLane {
+                lane 12,
+                maneuver {maneuverLeftAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 2
+            },
+            {
+              connectingLane {
+                lane 13,
+                maneuver {maneuverStraightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 2
+            },
+            {
+              connectingLane {
+                lane 15,
+                maneuver {maneuverRightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 2
+            },
+            {
+              connectingLane {
+                lane 16,
+                maneuver {maneuverRightAllowed}
+              },
+              remoteIntersection {
+                id 2522
+              },
+              signalGroup 2
+            }
+          }
+        },
+        {
+          laneID 19,
+          name "State St. south crosswalk",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType crosswalk : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836986914,
+                lat 423007720
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836985184,
+                lat 423007729
+              }
+            }
+          }
+        },
+        {
+          laneID 18,
+          name "Main St. east crosswalk",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType crosswalk : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836984795,
+                lat 423007888
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836984822,
+                lat 423009882
+              }
+            }
+          }
+        },
+        {
+          laneID 17,
+          name "State st. crosswalk north",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType crosswalk : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836984889,
+                lat 423010021
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987062,
+                lat 423010006
+              }
+            }
+          }
+        },
+        {
+          laneID 20,
+          name "Main St. crosswalk west",
+          laneAttributes {
+            directionalUse {},
+            sharedWith {},
+            laneType crosswalk : {}
+          },
+          nodeList nodes : {
+            {
+              delta node-LatLon : {
+                lon -836987048,
+                lat 423009832
+              }
+            },
+            {
+              delta node-LatLon : {
+                lon -836987035,
+                lat 423007918
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

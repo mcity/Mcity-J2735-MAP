@@ -1,446 +1,520 @@
-value MapData ::= {
-  msgIssueRevision 7,
-  layerType intersectionData,
-  layerID 1,
-  intersections {
-    {
-      id {
-        id 2575
-      },
-      revision 7,
-      refPoint {
-        lat 422992846,
-        long -836990973,
-        elevation 2670
-      },
-      laneWidth 366,
-      speedLimits {
-        {
-          type unknown,
-          speed 0
+value MessageFrame ::= {
+  messageId 18,
+  value MapData : {
+    msgIssueRevision 8,
+    layerType intersectionData,
+    layerID 1,
+    intersections {
+      {
+        id {
+          id 2575
         },
-        {
-          type unknown,
-          speed 0
-        }
-      },
-      laneSet {
-        {
-          laneID 6,
-          name "Entrance Southbound Ingress",
-          ingressApproach 1,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
+        revision 8,
+        refPoint {
+          lat 422992846,
+          long -836990973,
+          elevation 2670
+        },
+        laneWidth 366,
+        speedLimits {
+          {
+            type unknown,
+            speed 0
           },
-          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836992308,
-                lat 422994481
-              },
-              attributes {
-                dWidth -37
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836992321,
-                lat 422998081
-              }
-            }
-          },
-          connectsTo {
-            {
-              connectingLane {
-                lane 3,
-                maneuver {maneuverLeftAllowed}
-              },
-              signalGroup 6
-            },
-            {
-              connectingLane {
-                lane 1,
-                maneuver {maneuverStraightAllowed}
-              },
-              signalGroup 6
-            },
-            {
-              connectingLane {
-                lane 7,
-                maneuver {maneuverRightAllowed}
-              },
-              signalGroup 6
-            }
+          {
+            type unknown,
+            speed 0
           }
         },
-        {
-          laneID 5,
-          name "Entrance Northbound Egress",
-          egressApproach 5,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836991892,
-                lat 422994461
+        laneSet {
+          {
+            laneID 6,
+            name "Entrance Southbound Ingress",
+            ingressApproach 1,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -1238,
+                  y 1776
+                },
+                attributes {
+                  dWidth -37,
+                  dElevation -340
+                }
               },
-              attributes {
-                dWidth -36
+              {
+                delta node-XY4 : {
+                  x -17,
+                  y 4011
+                },
+                attributes {
+                  dElevation 20
+                }
               }
             },
-            {
-              delta node-LatLon : {
-                lon -836991919,
-                lat 422998091
-              }
-            }
-          }
-        },
-        {
-          laneID 8,
-          name "Entrance Westbound Ingress",
-          ingressApproach 2,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          maneuvers {maneuverStraightAllowed},
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836990746,
-                lat 422993712
+            connectsTo {
+              {
+                connectingLane {
+                  lane 3,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 6
               },
-              attributes {
-                dWidth 24
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836989176,
-                lat 422994813
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836988930,
-                lat 422995488
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836988916,
-                lat 422996520
+              {
+                connectingLane {
+                  lane 1,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 6
+              },
+              {
+                connectingLane {
+                  lane 7,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 6
               }
             }
           },
-          connectsTo {
-            {
-              connectingLane {
-                lane 5,
-                maneuver {maneuverRightAllowed}
+          {
+            laneID 5,
+            name "Entrance Northbound Egress",
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -834,
+                  y 1792
+                },
+                attributes {
+                  dWidth -36,
+                  dElevation -340
+                }
               },
-              signalGroup 8
-            },
-            {
-              connectingLane {
-                lane 1,
-                maneuver {maneuverLeftAllowed}
-              },
-              signalGroup 8
-            },
-            {
-              connectingLane {
-                lane 3,
-                maneuver {maneuverStraightAllowed}
-              },
-              signalGroup 8
-            }
-          }
-        },
-        {
-          laneID 7,
-          name "Entrance Eastbound Egress",
-          egressApproach 6,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836990430,
-                lat 422993454
-              },
-              attributes {
-                dWidth -25
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836988881,
-                lat 422994580
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987870,
-                lat 422995290
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836986476,
-                lat 422995756
-              }
-            }
-          }
-        },
-        {
-          laneID 2,
-          name "Entrance Northbound Ingress",
-          ingressApproach 3,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836989076,
-                lat 422992041
-              },
-              attributes {
-                dWidth -53
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987721,
-                lat 422991847
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836986219,
-                lat 422991936
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836982927,
-                lat 422992427
+              {
+                delta node-XY4 : {
+                  x -17,
+                  y 4027
+                },
+                attributes {
+                  dElevation 20
+                }
               }
             }
           },
-          connectsTo {
-            {
-              connectingLane {
-                lane 5,
-                maneuver {maneuverStraightAllowed}
+          {
+            laneID 8,
+            name "Entrance Westbound Ingress",
+            ingressApproach 2,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 289,
+                  y 856
+                },
+                attributes {
+                  dWidth 24,
+                  dElevation -350
+                }
               },
-              signalGroup 2
-            },
-            {
-              connectingLane {
-                lane 7,
-                maneuver {maneuverRightAllowed}
+              {
+                delta node-XY2 : {
+                  x 735,
+                  y 518
+                },
+                attributes {
+                  dElevation 10
+                }
               },
-              signalGroup 2
-            },
-            {
-              connectingLane {
-                lane 3,
-                maneuver {maneuverLeftAllowed}
+              {
+                delta node-XY1 : {
+                  x 293,
+                  y 479
+                }
               },
-              signalGroup 2
-            }
-          }
-        },
-        {
-          laneID 1,
-          name "Entrance Southbound Egress",
-          egressApproach 7,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836989217,
-                lat 422991728
+              {
+                delta node-XY1 : {
+                  x 188,
+                  y 463
+                }
               },
-              attributes {
-                dWidth 11
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836987869,
-                lat 422991550
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836986119,
-                lat 422991669
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836982873,
-                lat 422992095
-              }
-            }
-          }
-        },
-        {
-          laneID 4,
-          name "Entrance Eastbound Ingress",
-          ingressApproach 4,
-          laneAttributes {
-            directionalUse {ingressPath},
-            sharedWith {},
-            laneType vehicle : {}
-          },
-          maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836991490,
-                lat 422991713
+              {
+                delta node-XY2 : {
+                  x 138,
+                  y 887
+                },
+                attributes {
+                  dElevation 10
+                }
               },
-              attributes {
-                dWidth -116
+              {
+                delta node-XY2 : {
+                  x 33,
+                  y 887
+                }
               }
             },
-            {
-              delta node-LatLon : {
-                lon -836995178,
-                lat 422988653
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836995895,
-                lat 422988321
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -836997874,
-                lat 422987567
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -837000811,
-                lat 422986699
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -837002594,
-                lat 422986436
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -837003453,
-                lat 422986436
+            connectsTo {
+              {
+                connectingLane {
+                  lane 5,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 8
+              },
+              {
+                connectingLane {
+                  lane 1,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 8
+              },
+              {
+                connectingLane {
+                  lane 3,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 8
               }
             }
           },
-          connectsTo {
-            {
-              connectingLane {
-                lane 5,
-                maneuver {maneuverLeftAllowed}
-              },
-              signalGroup 4
+          {
+            laneID 7,
+            name "Entrance Eastbound Egress",
+            egressApproach 6,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
             },
-            {
-              connectingLane {
-                lane 6,
-                maneuver {maneuverStraightAllowed}
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 565,
+                  y 448
+                },
+                attributes {
+                  dWidth -25,
+                  dElevation -350
+                }
               },
-              signalGroup 4
-            },
-            {
-              connectingLane {
-                lane 1,
-                maneuver {maneuverRightAllowed}
+              {
+                delta node-XY3 : {
+                  x 1028,
+                  y 843
+                }
               },
-              signalGroup 4
+              {
+                delta node-XY2 : {
+                  x 459,
+                  y 859
+                },
+                attributes {
+                  dElevation 10
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x 509,
+                  y 656
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x 647,
+                  y 419
+                },
+                attributes {
+                  dElevation 10
+                }
+              }
             }
-          }
-        },
-        {
-          laneID 3,
-          name "Entrance Westbound Egress",
-          egressApproach 8,
-          laneAttributes {
-            directionalUse {egressPath},
-            sharedWith {},
-            laneType vehicle : {}
           },
-          nodeList nodes : {
-            {
-              delta node-LatLon : {
-                lon -836991706,
-                lat 422991873
+          {
+            laneID 2,
+            name "Entrance Northbound Ingress",
+            ingressApproach 3,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1278,
+                  y -1056
+                },
+                attributes {
+                  dWidth -53,
+                  dElevation -360
+                }
               },
-              attributes {
-                dWidth -98
+              {
+                delta node-XY3 : {
+                  x 1172,
+                  y -226
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 1382,
+                  y 94
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 2831,
+                  y 518
+                }
               }
             },
-            {
-              delta node-LatLon : {
-                lon -836995461,
-                lat 422988817
+            connectsTo {
+              {
+                connectingLane {
+                  lane 5,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 2
+              },
+              {
+                connectingLane {
+                  lane 7,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 2
+              },
+              {
+                connectingLane {
+                  lane 3,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 2
+              }
+            }
+          },
+          {
+            laneID 1,
+            name "Entrance Southbound Egress",
+            egressApproach 7,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1179,
+                  y -1409
+                },
+                attributes {
+                  dWidth 11,
+                  dElevation -360
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 1261,
+                  y -193
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 1648,
+                  y 198
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 2632,
+                  y 408
+                }
+              }
+            }
+          },
+          {
+            laneID 4,
+            name "Entrance Eastbound Ingress",
+            ingressApproach 4,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -441,
+                  y -1535
+                },
+                attributes {
+                  dWidth -116,
+                  dElevation -360
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1272,
+                  y -1328
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1294,
+                  y -1251
+                },
+                attributes {
+                  dElevation -10
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1052,
+                  y -913
+                },
+                attributes {
+                  dElevation 370
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1631,
+                  y -837
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -2348,
+                  y -922
+                },
+                attributes {
+                  dElevation -370
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1504,
+                  y -297
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -741,
+                  y -22
+                }
               }
             },
-            {
-              delta node-LatLon : {
-                lon -836996038,
-                lat 422988540
+            connectsTo {
+              {
+                connectingLane {
+                  lane 5,
+                  maneuver {maneuverLeftAllowed}
+                },
+                signalGroup 4
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverStraightAllowed}
+                },
+                signalGroup 4
+              },
+              {
+                connectingLane {
+                  lane 1,
+                  maneuver {maneuverRightAllowed}
+                },
+                signalGroup 4
               }
+            }
+          },
+          {
+            laneID 3,
+            name "Entrance Westbound Egress",
+            egressApproach 8,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
             },
-            {
-              delta node-LatLon : {
-                lon -836997969,
-                lat 422987796
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -837000879,
-                lat 422986943
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -837002596,
-                lat 422986695
-              }
-            },
-            {
-              delta node-LatLon : {
-                lon -837003446,
-                lat 422986679
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -640,
+                  y -1354
+                },
+                attributes {
+                  dWidth -98,
+                  dElevation -360
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1493,
+                  y -1532
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1568,
+                  y -1590
+                },
+                attributes {
+                  dElevation 360
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -556,
+                  y -443
+                },
+                attributes {
+                  dElevation -370
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1493,
+                  y -760
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -2367,
+                  y -970
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1476,
+                  y -259
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -686,
+                  y -6
+                }
               }
             }
           }
@@ -449,3 +523,4 @@ value MapData ::= {
     }
   }
 }
+

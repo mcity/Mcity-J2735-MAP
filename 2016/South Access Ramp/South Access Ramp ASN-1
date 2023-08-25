@@ -1,0 +1,148 @@
+value MessageFrame ::= {
+  messageId 18,
+  value MapData : {
+    msgIssueRevision 7,
+    layerType intersectionData,
+    layerID 0,
+    intersections {
+      {
+        id {
+          id 2580
+        },
+        revision 7,
+        refPoint {
+          lat 422997504,
+          long -836972627,
+          elevation 2700
+        },
+        laneWidth 366,
+        laneSet {
+          {
+            laneID 2,
+            name "South Access Ramp northbound Ingres" -- truncated --,
+            ingressApproach 2,
+            egressApproach 2,
+            laneAttributes {
+              directionalUse {ingressPath, egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY1 : {
+                  x 2,
+                  y -95
+                },
+                attributes {
+                  dWidth 85
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 227,
+                  y -2060
+                },
+                attributes {
+                  dElevation -380
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -94,
+                  y -865
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -415,
+                  y -920
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -636,
+                  y -694
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1040,
+                  y -518
+                },
+                attributes {
+                  dElevation -10
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1686,
+                  y -364
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 1,
+                  maneuver {maneuverStraightAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 1,
+            name "South Access Ramp Southbound Ingres" -- truncated --,
+            ingressApproach 1,
+            egressApproach 1,
+            laneAttributes {
+              directionalUse {ingressPath, egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY1 : {
+                  x -53,
+                  y 246
+                },
+                attributes {
+                  dWidth 85,
+                  dElevation -380
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -299,
+                  y 2810
+                },
+                attributes {
+                  dElevation 10
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -321,
+                  y 2452
+                },
+                attributes {
+                  dElevation 10
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 2,
+                  maneuver {maneuverStraightAllowed}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
