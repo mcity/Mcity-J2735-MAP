@@ -1,0 +1,574 @@
+value MessageFrame ::= {
+  messageId 18,
+  value MapData : {
+    msgIssueRevision 9,
+    layerType intersectionData,
+    layerID 1,
+    intersections {
+      {
+        id {
+          id 2572
+        },
+        revision 9,
+        refPoint {
+          lat 423009300,
+          long -836979965,
+          elevation 2670
+        },
+        laneWidth 365,
+        speedLimits {
+          {
+            type unknown,
+            speed 0
+          }
+        },
+        laneSet {
+          {
+            laneID 2,
+            name "MainW2",
+            ingressApproach 2,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1637,
+                  y 727
+                },
+                attributes {
+                  dWidth 1,
+                  dElevation 50
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 2079,
+                  y 0
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverRightAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 3,
+            name "MainW3",
+            ingressApproach 2,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1635,
+                  y 358
+                },
+                attributes {
+                  dWidth -4,
+                  dElevation -280
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 2096,
+                  y 6
+                },
+                attributes {
+                  dElevation 330
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 9,
+                  maneuver {maneuverStraightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 8,
+                  maneuver {maneuverLeftAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 8,
+            name "WolvS3",
+            egressApproach 7,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 263,
+                  y -1810
+                },
+                attributes {
+                  dWidth 3,
+                  dElevation -280
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -61,
+                  y -3493
+                },
+                attributes {
+                  dElevation -10
+                }
+              }
+            }
+          },
+          {
+            laneID 5,
+            name "MainE",
+            ingressApproach 4,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x -843,
+                  y -417
+                },
+                attributes {
+                  dWidth 1,
+                  dElevation -270
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -3577,
+                  y 39
+                },
+                attributes {
+                  dElevation -10
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverLeftAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 7,
+                  maneuver {maneuverStraightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 8,
+                  maneuver {maneuverRightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverStraightAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 9,
+            name "MainW",
+            egressApproach 8,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x -837,
+                  y 624
+                },
+                attributes {
+                  dWidth 132,
+                  dElevation -270
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -3611,
+                  y 11
+                },
+                attributes {
+                  dElevation -10
+                }
+              }
+            }
+          },
+          {
+            laneID 6,
+            name "WolvN3",
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 927,
+                  y 1317
+                },
+                attributes {
+                  dWidth -12,
+                  dElevation 50
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 54,
+                  y 3142
+                },
+                attributes {
+                  dElevation -320
+                }
+              }
+            }
+          },
+          {
+            laneID 4,
+            name "WolvN2",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 944,
+                  y -1796
+                },
+                attributes {
+                  dWidth -20,
+                  dElevation 50
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -12,
+                  y -3535
+                },
+                attributes {
+                  dElevation -340
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverStraightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 7,
+                  maneuver {maneuverRightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverRightAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 12,
+            name "WolvN",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverLeftAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 629,
+                  y -1801
+                },
+                attributes {
+                  dWidth -73,
+                  dElevation 50
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -23,
+                  y -2108
+                },
+                attributes {
+                  dElevation -340
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 9,
+                  maneuver {maneuverLeftAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 7,
+            name "MainE2",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1579,
+                  y -450
+                },
+                attributes {
+                  dWidth -2,
+                  dElevation -280
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 2134,
+                  y -6
+                }
+              }
+            }
+          },
+          {
+            laneID 10,
+            name "MainE3",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1590,
+                  y -830
+                },
+                attributes {
+                  dWidth -2,
+                  dElevation -280
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 2085,
+                  y -11
+                },
+                attributes {
+                  dElevation -10
+                }
+              }
+            }
+          },
+          {
+            laneID 1,
+            name "WolvS",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverLeftAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 578,
+                  y 1335
+                },
+                attributes {
+                  dWidth -55,
+                  dElevation -270
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 0,
+                  y 1658
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 7,
+                  maneuver {maneuverLeftAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverLeftAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 11,
+            name "WolvS2",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 264,
+                  y 1322
+                },
+                attributes {
+                  dWidth 3,
+                  dElevation 50
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 5,
+                  y 3147
+                },
+                attributes {
+                  dElevation -320
+                }
+              }
+            }
+          },
+          {
+            laneID 13,
+            name "MainWCross",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -450,
+                  y 1088
+                },
+                attributes {
+                  dElevation 50
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -50,
+                  y -1042
+                },
+                attributes {
+                  dElevation -320
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 29,
+                  y -1101
+                },
+                attributes {
+                  dElevation 320
+                }
+              }
+            }
+          },
+          {
+            laneID 14,
+            name "Main x Wolverine North crosswalk",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY4 : {
+                  x 83,
+                  y 2823
+                },
+                attributes {
+                  dElevation 50
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 1084,
+                  y 18
+                }
+              }
+            }
+          },
+          {
+            laneID 15,
+            name "WolvSCross",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -165,
+                  y -1520
+                },
+                attributes {
+                  dElevation 50
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 1416,
+                  y 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,624 @@
+value MessageFrame ::= {
+  messageId 18,
+  value MapData : {
+    msgIssueRevision 10,
+    layerType intersectionData,
+    layerID 0,
+    intersections {
+      {
+        id {
+          id 2570
+        },
+        revision 10,
+        refPoint {
+          lat 423003768,
+          long -836986624,
+          elevation 2760
+        },
+        laneWidth 366,
+        laneSet {
+          {
+            laneID 7,
+            name "StateN5",
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType bikeLane : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 592,
+                  y 1019
+                },
+                attributes {
+                  dWidth -213
+                }
+              },
+              {
+                delta node-XY5 : {
+                  x 39,
+                  y 4253
+                }
+              }
+            }
+          },
+          {
+            laneID 6,
+            name "StateN4",
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 299,
+                  y 1008
+                },
+                attributes {
+                  dWidth -53
+                }
+              },
+              {
+                delta node-XY5 : {
+                  x 11,
+                  y 4275
+                }
+              }
+            }
+          },
+          {
+            laneID 11,
+            name "StateN3",
+            egressApproach 5,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 17,
+                  y 1019
+                },
+                attributes {
+                  dWidth 13
+                }
+              },
+              {
+                delta node-XY5 : {
+                  x -28,
+                  y 4253
+                }
+              }
+            }
+          },
+          {
+            laneID 1,
+            name "StateS2",
+            ingressApproach 1,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -288,
+                  y 1036
+                },
+                attributes {
+                  dWidth 1
+                }
+              },
+              {
+                delta node-XY5 : {
+                  x -55,
+                  y 4203
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 8,
+                  maneuver {maneuverLeftAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 9,
+                  maneuver {maneuverStraightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 12,
+                  maneuver {maneuverStraightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverRightAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 5,
+            name "StateS",
+            ingressApproach 1,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType bikeLane : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -592,
+                  y 1047
+                },
+                attributes {
+                  dWidth -228
+                }
+              },
+              {
+                delta node-XY5 : {
+                  x -72,
+                  y 4203
+                }
+              }
+            }
+          },
+          {
+            laneID 2,
+            name "StateW",
+            ingressApproach 2,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1178,
+                  y 474
+                },
+                attributes {
+                  dWidth -15
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 3699,
+                  y -28
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 11,
+                  maneuver {maneuverRightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverRightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 9,
+                  maneuver {maneuverLeftAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 12,
+                  maneuver {maneuverLeftAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverStraightAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 8,
+            name "StateE",
+            egressApproach 6,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 1161,
+                  y -270
+                },
+                attributes {
+                  dWidth -10
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x 3882,
+                  y -110
+                }
+              }
+            }
+          },
+          {
+            laneID 3,
+            name "StateN2",
+            ingressApproach 3,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 558,
+                  y -1157
+                },
+                attributes {
+                  dWidth -27
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -6,
+                  y -1515
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x 155,
+                  y -705
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 376,
+                  y -1102
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 11,
+                  maneuver {maneuverStraightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverStraightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 8,
+                  maneuver {maneuverRightAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 13,
+            name "StateN",
+            ingressApproach 3,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x 221,
+                  y -1184
+                },
+                attributes {
+                  dWidth -81
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -11,
+                  y -1410
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 10,
+                  maneuver {maneuverLeftAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 9,
+            name "StateS4",
+            egressApproach 7,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -77,
+                  y -1195
+                },
+                attributes {
+                  dWidth -60
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -33,
+                  y -2193
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -288,
+                  y -848
+                }
+              }
+            }
+          },
+          {
+            laneID 12,
+            name "StateS3",
+            egressApproach 7,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -487,
+                  y -1223
+                },
+                attributes {
+                  dWidth -35
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -33,
+                  y -1317
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -100,
+                  y -782
+                }
+              },
+              {
+                delta node-XY2 : {
+                  x -354,
+                  y -749
+                }
+              },
+              {
+                delta node-XY1 : {
+                  x -232,
+                  y -209
+                }
+              }
+            }
+          },
+          {
+            laneID 10,
+            name "StateW2",
+            egressApproach 8,
+            laneAttributes {
+              directionalUse {egressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -1316,
+                  y 253
+                },
+                attributes {
+                  dWidth -6
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -2262,
+                  y 11
+                }
+              }
+            }
+          },
+          {
+            laneID 4,
+            name "StateE2",
+            ingressApproach 4,
+            laneAttributes {
+              directionalUse {ingressPath},
+              sharedWith {},
+              laneType vehicle : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -1266,
+                  y -138
+                },
+                attributes {
+                  dWidth -25
+                }
+              },
+              {
+                delta node-XY4 : {
+                  x -2339,
+                  y 11
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 11,
+                  maneuver {maneuverLeftAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 6,
+                  maneuver {maneuverLeftAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 8,
+                  maneuver {maneuverStraightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 9,
+                  maneuver {maneuverRightAllowed}
+                }
+              },
+              {
+                connectingLane {
+                  lane 12,
+                  maneuver {maneuverRightAllowed}
+                }
+              }
+            }
+          },
+          {
+            laneID 14,
+            name "LibWCross",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY3 : {
+                  x -1173,
+                  y 470
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x 154,
+                  y -1040
+                }
+              }
+            }
+          },
+          {
+            laneID 15,
+            name "StateNCross",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 665,
+                  y 768
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1385,
+                  y 8
+                }
+              }
+            }
+          },
+          {
+            laneID 17,
+            name "LibECross",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 1022,
+                  y -482
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -7,
+                  y 1269
+                }
+              }
+            }
+          },
+          {
+            laneID 16,
+            name "StateSCross",
+            laneAttributes {
+              directionalUse {},
+              sharedWith {},
+              laneType crosswalk : {}
+            },
+            nodeList nodes : {
+              {
+                delta node-XY2 : {
+                  x 643,
+                  y -926
+                }
+              },
+              {
+                delta node-XY3 : {
+                  x -1347,
+                  y -73
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
