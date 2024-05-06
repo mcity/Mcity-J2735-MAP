@@ -1,7 +1,7 @@
 value MessageFrame ::= {
   messageId 18,
   value MapData : {
-    msgIssueRevision 8,
+    msgIssueRevision 12,
     layerType intersectionData,
     layerID 1,
     intersections {
@@ -9,7 +9,7 @@ value MessageFrame ::= {
         id {
           id 2572
         },
-        revision 8,
+        revision 12,
         refPoint {
           lat 423009300,
           long -836979965,
@@ -25,7 +25,7 @@ value MessageFrame ::= {
         laneSet {
           {
             laneID 2,
-            name "Main x Wolverine Westbound Ingress",
+            name "MainW2",
             ingressApproach 2,
             laneAttributes {
               directionalUse {ingressPath},
@@ -35,9 +35,9 @@ value MessageFrame ::= {
             maneuvers {maneuverRightAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 1637,
-                  y 727
+                delta node-LatLon : {
+                  lon -836977980,
+                  lat 423009955
                 },
                 attributes {
                   dWidth 1,
@@ -45,9 +45,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x 2079,
-                  y 0
+                delta node-LatLon : {
+                  lon -836975458,
+                  lat 423009955
                 }
               }
             },
@@ -56,14 +56,13 @@ value MessageFrame ::= {
                 connectingLane {
                   lane 6,
                   maneuver {maneuverRightAllowed}
-                },
-                signalGroup 4
+                }
               }
             }
           },
           {
             laneID 3,
-            name "Main x Wolverine Westbound Ingress ",
+            name "MainW3",
             ingressApproach 2,
             laneAttributes {
               directionalUse {ingressPath},
@@ -73,9 +72,9 @@ value MessageFrame ::= {
             maneuvers {maneuverStraightAllowed, maneuverLeftAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 1635,
-                  y 358
+                delta node-LatLon : {
+                  lon -836977983,
+                  lat 423009623
                 },
                 attributes {
                   dWidth -4,
@@ -83,9 +82,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x 2096,
-                  y 6
+                delta node-LatLon : {
+                  lon -836975441,
+                  lat 423009628
                 },
                 attributes {
                   dElevation 330
@@ -97,8 +96,7 @@ value MessageFrame ::= {
                 connectingLane {
                   lane 9,
                   maneuver {maneuverStraightAllowed}
-                },
-                signalGroup 4
+                }
               },
               {
                 connectingLane {
@@ -110,7 +108,7 @@ value MessageFrame ::= {
           },
           {
             laneID 8,
-            name "Main x Wolverine Southbound Egress",
+            name "WolvS3",
             egressApproach 7,
             laneAttributes {
               directionalUse {egressPath},
@@ -119,9 +117,9 @@ value MessageFrame ::= {
             },
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 263,
-                  y -1810
+                delta node-LatLon : {
+                  lon -836979647,
+                  lat 423007671
                 },
                 attributes {
                   dWidth 3,
@@ -129,9 +127,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x -61,
-                  y -3493
+                delta node-LatLon : {
+                  lon -836979720,
+                  lat 423004526
                 },
                 attributes {
                   dElevation -10
@@ -141,7 +139,7 @@ value MessageFrame ::= {
           },
           {
             laneID 5,
-            name "Main x Wolverine Eastbound Ingress",
+            name "MainE",
             ingressApproach 4,
             laneAttributes {
               directionalUse {ingressPath},
@@ -151,9 +149,9 @@ value MessageFrame ::= {
             maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
             nodeList nodes : {
               {
-                delta node-XY2 : {
-                  x -843,
-                  y -417
+                delta node-LatLon : {
+                  lon -836980988,
+                  lat 423008925
                 },
                 attributes {
                   dWidth 1,
@@ -161,9 +159,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x -3577,
-                  y 39
+                delta node-LatLon : {
+                  lon -836985326,
+                  lat 423008960
                 },
                 attributes {
                   dElevation -10
@@ -175,35 +173,31 @@ value MessageFrame ::= {
                 connectingLane {
                   lane 6,
                   maneuver {maneuverLeftAllowed}
-                },
-                signalGroup 8
+                }
               },
               {
                 connectingLane {
                   lane 7,
                   maneuver {maneuverStraightAllowed}
-                },
-                signalGroup 8
+                }
               },
               {
                 connectingLane {
                   lane 8,
                   maneuver {maneuverRightAllowed}
-                },
-                signalGroup 8
+                }
               },
               {
                 connectingLane {
                   lane 10,
                   maneuver {maneuverStraightAllowed}
-                },
-                signalGroup 8
+                }
               }
             }
           },
           {
             laneID 9,
-            name "Main x Wolverine Westbound Egress",
+            name "MainW",
             egressApproach 8,
             laneAttributes {
               directionalUse {egressPath},
@@ -212,9 +206,9 @@ value MessageFrame ::= {
             },
             nodeList nodes : {
               {
-                delta node-XY2 : {
-                  x -837,
-                  y 624
+                delta node-LatLon : {
+                  lon -836980981,
+                  lat 423009863
                 },
                 attributes {
                   dWidth 132,
@@ -222,9 +216,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x -3611,
-                  y 11
+                delta node-LatLon : {
+                  lon -836985360,
+                  lat 423009873
                 },
                 attributes {
                   dElevation -10
@@ -234,7 +228,7 @@ value MessageFrame ::= {
           },
           {
             laneID 6,
-            name "Main x Wolverine Northbound Egress",
+            name "WolvN3",
             egressApproach 5,
             laneAttributes {
               directionalUse {egressPath},
@@ -243,9 +237,9 @@ value MessageFrame ::= {
             },
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 927,
-                  y 1317
+                delta node-LatLon : {
+                  lon -836978841,
+                  lat 423010486
                 },
                 attributes {
                   dWidth -12,
@@ -253,9 +247,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x 54,
-                  y 3142
+                delta node-LatLon : {
+                  lon -836978775,
+                  lat 423013315
                 },
                 attributes {
                   dElevation -320
@@ -265,18 +259,19 @@ value MessageFrame ::= {
           },
           {
             laneID 4,
-            name "Main x Wolverine Northbound Ingress",
+            name "WolvN2",
+            ingressApproach 3,
             laneAttributes {
-              directionalUse {},
+              directionalUse {ingressPath},
               sharedWith {},
               laneType vehicle : {}
             },
             maneuvers {maneuverStraightAllowed, maneuverLeftAllowed, maneuverRightAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 944,
-                  y -1796
+                delta node-LatLon : {
+                  lon -836978821,
+                  lat 423007684
                 },
                 attributes {
                   dWidth -20,
@@ -284,9 +279,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x -12,
-                  y -3535
+                delta node-LatLon : {
+                  lon -836978835,
+                  lat 423004501
                 },
                 attributes {
                   dElevation -340
@@ -298,39 +293,37 @@ value MessageFrame ::= {
                 connectingLane {
                   lane 6,
                   maneuver {maneuverStraightAllowed}
-                },
-                signalGroup 6
+                }
               },
               {
                 connectingLane {
                   lane 7,
                   maneuver {maneuverRightAllowed}
-                },
-                signalGroup 6
+                }
               },
               {
                 connectingLane {
                   lane 10,
                   maneuver {maneuverRightAllowed}
-                },
-                signalGroup 6
+                }
               }
             }
           },
           {
             laneID 12,
-            name "Wolverine Northbound ingress left t" -- truncated --,
+            name "WolvN",
+            ingressApproach 3,
             laneAttributes {
-              directionalUse {},
+              directionalUse {ingressPath},
               sharedWith {},
               laneType vehicle : {}
             },
             maneuvers {maneuverLeftAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 629,
-                  y -1801
+                delta node-LatLon : {
+                  lon -836979203,
+                  lat 423007679
                 },
                 attributes {
                   dWidth -73,
@@ -338,9 +331,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x -23,
-                  y -2108
+                delta node-LatLon : {
+                  lon -836979231,
+                  lat 423005781
                 },
                 attributes {
                   dElevation -340
@@ -352,24 +345,24 @@ value MessageFrame ::= {
                 connectingLane {
                   lane 9,
                   maneuver {maneuverLeftAllowed}
-                },
-                signalGroup 6
+                }
               }
             }
           },
           {
             laneID 7,
-            name "Main x Wolverine Eastbound Egress",
+            name "MainE2",
+            egressApproach 6,
             laneAttributes {
-              directionalUse {},
+              directionalUse {egressPath},
               sharedWith {},
               laneType vehicle : {}
             },
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 1579,
-                  y -450
+                delta node-LatLon : {
+                  lon -836978051,
+                  lat 423008896
                 },
                 attributes {
                   dWidth -2,
@@ -377,26 +370,27 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x 2134,
-                  y -6
+                delta node-LatLon : {
+                  lon -836975462,
+                  lat 423008891
                 }
               }
             }
           },
           {
             laneID 10,
-            name "Main x Wolverine Eastbound Egress",
+            name "MainE3",
+            egressApproach 6,
             laneAttributes {
-              directionalUse {},
+              directionalUse {egressPath},
               sharedWith {},
               laneType vehicle : {}
             },
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 1590,
-                  y -830
+                delta node-LatLon : {
+                  lon -836978037,
+                  lat 423008553
                 },
                 attributes {
                   dWidth -2,
@@ -404,9 +398,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x 2085,
-                  y -11
+                delta node-LatLon : {
+                  lon -836975509,
+                  lat 423008543
                 },
                 attributes {
                   dElevation -10
@@ -416,18 +410,19 @@ value MessageFrame ::= {
           },
           {
             laneID 1,
-            name "Main x Wolverine Southbound Ingress",
+            name "WolvS",
+            ingressApproach 1,
             laneAttributes {
-              directionalUse {},
+              directionalUse {ingressPath},
               sharedWith {},
               laneType vehicle : {}
             },
             maneuvers {maneuverLeftAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 578,
-                  y 1335
+                delta node-LatLon : {
+                  lon -836979264,
+                  lat 423010502
                 },
                 attributes {
                   dWidth -55,
@@ -435,9 +430,9 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY3 : {
-                  x 0,
-                  y 1658
+                delta node-LatLon : {
+                  lon -836979264,
+                  lat 423011995
                 }
               }
             },
@@ -446,31 +441,31 @@ value MessageFrame ::= {
                 connectingLane {
                   lane 7,
                   maneuver {maneuverLeftAllowed}
-                },
-                signalGroup 2
+                }
               },
               {
                 connectingLane {
                   lane 10,
                   maneuver {maneuverLeftAllowed}
-                },
-                signalGroup 2
+                }
               }
             }
           },
           {
             laneID 11,
-            name "Main x Wolverine Southbound Ingress",
+            name "WolvS2",
+            ingressApproach 1,
             laneAttributes {
-              directionalUse {},
+              directionalUse {ingressPath},
               sharedWith {},
               laneType vehicle : {}
             },
+            maneuvers {maneuverStraightAllowed, maneuverRightAllowed},
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x 264,
-                  y 1322
+                delta node-LatLon : {
+                  lon -836979645,
+                  lat 423010491
                 },
                 attributes {
                   dWidth 3,
@@ -478,19 +473,31 @@ value MessageFrame ::= {
                 }
               },
               {
-                delta node-XY4 : {
-                  x 5,
-                  y 3147
+                delta node-LatLon : {
+                  lon -836979640,
+                  lat 423013324
                 },
                 attributes {
                   dElevation -320
+                }
+              }
+            },
+            connectsTo {
+              {
+                connectingLane {
+                  lane 8
+                }
+              },
+              {
+                connectingLane {
+                  lane 9
                 }
               }
             }
           },
           {
             laneID 13,
-            name "Main x Wolverine West Crosswalk",
+            name "MainWCross",
             laneAttributes {
               directionalUse {},
               sharedWith {},
@@ -498,27 +505,27 @@ value MessageFrame ::= {
             },
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x -450,
-                  y 1088
+                delta node-LatLon : {
+                  lon -836980511,
+                  lat 423010280
                 },
                 attributes {
                   dElevation 50
                 }
               },
               {
-                delta node-XY3 : {
-                  x -50,
-                  y -1042
+                delta node-LatLon : {
+                  lon -836980572,
+                  lat 423009342
                 },
                 attributes {
                   dElevation -320
                 }
               },
               {
-                delta node-XY3 : {
-                  x 29,
-                  y -1101
+                delta node-LatLon : {
+                  lon -836980536,
+                  lat 423008351
                 },
                 attributes {
                   dElevation 320
@@ -536,25 +543,25 @@ value MessageFrame ::= {
             },
             nodeList nodes : {
               {
-                delta node-XY4 : {
-                  x 83,
-                  y 2823
+                delta node-LatLon : {
+                  lon -836979865,
+                  lat 423011842
                 },
                 attributes {
                   dElevation 50
                 }
               },
               {
-                delta node-XY3 : {
-                  x 1084,
-                  y 18
+                delta node-LatLon : {
+                  lon -836978551,
+                  lat 423011858
                 }
               }
             }
           },
           {
             laneID 15,
-            name "Main x Wolverine South Crosswalk",
+            name "WolvSCross",
             laneAttributes {
               directionalUse {},
               sharedWith {},
@@ -562,18 +569,18 @@ value MessageFrame ::= {
             },
             nodeList nodes : {
               {
-                delta node-XY3 : {
-                  x -165,
-                  y -1520
+                delta node-LatLon : {
+                  lon -836980166,
+                  lat 423007932
                 },
                 attributes {
                   dElevation 50
                 }
               },
               {
-                delta node-XY3 : {
-                  x 1416,
-                  y 0
+                delta node-LatLon : {
+                  lon -836978449,
+                  lat 423007932
                 }
               }
             }
@@ -583,4 +590,3 @@ value MessageFrame ::= {
     }
   }
 }
-
